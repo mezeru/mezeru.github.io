@@ -1,6 +1,3 @@
-/*
- * General/Utility Styles
-*/
 
 * {
   -moz-box-sizing: border-box; /* Firexfox */
@@ -52,10 +49,6 @@ strong {
 }
 
 
-/*
- * Heading 
-*/
-
 h1 {
   font-size: 1.375rem; /* 22px / 16px */
   color: #666A6C;
@@ -81,9 +74,6 @@ header .logo {
 
 
 
-/*
- * Info
-*/
 
 .info {
   background: #FFF;
