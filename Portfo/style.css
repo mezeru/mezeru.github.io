@@ -47,9 +47,11 @@ padding-bottom: 1rem;
 }
 
 .sidenav hr{
+  border-top: 1px solid #a6a6a6;
   padding: 0rem;
   margin: 0rem;
 }
+
 
 .sidenav i{
 padding-left: 1rem;
@@ -111,7 +113,7 @@ font-weight: 400;
 
 .i-am p{
   font-size: 2rem;
-  color: #ffb3d9;
+  color: #d9d9d9;
   font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
