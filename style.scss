@@ -1,5 +1,13 @@
 body{
     background-color: black;
+    p{
+      cursor:default;
+    }
+    a{
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
 }
 
 .container{
@@ -8,11 +16,28 @@ body{
     padding: 0% 12%;
 }
 
+.navbar{
+  ul{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+  
+
+}
+
 .gliched-text{
     color: rgb(243, 243, 243);
     font-family: VCR OSD Mono,monospace;
     font-size: 4rem;
     text-transform: uppercase;
+
+    transition: all 500ms ease-in-out;
 
     text-shadow:0.07em 0 0 rgba(255, 0, 0, 0.505),
     -0.035em -0.07em 0 rgba(0, 128, 0, 0.505),
@@ -29,7 +54,7 @@ body{
         left: 0;
         animation: move 600ms infinite;
         clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-        transform: translate(-0.035em, -0.02em);
+        transform: translate(-0.05em, -0.025em);
     }
 
     span:last-child{
@@ -37,9 +62,21 @@ body{
         top: 0;
         left: 0;
         animation: move 300ms infinite;
-        clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-        transform: translate(0.025em, 0.05em);
+        clip-path: polygon(0 60%, 100% 50%, 100% 10%, 10% 80%);
+        transform: translate(0.05em, 0.10em);
     }
+}
+
+.gliched-move:hover{
+
+  span:first-child{
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  span:last-child{
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    }
+  
 }
 
 @keyframes move{

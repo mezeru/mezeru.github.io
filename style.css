@@ -2,6 +2,16 @@ body {
   background-color: black;
 }
 
+body p {
+  cursor: default;
+}
+
+body a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,11 +23,33 @@ body {
   padding: 0% 12%;
 }
 
+.navbar ul {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
 .gliched-text {
   color: #f3f3f3;
   font-family: VCR OSD Mono,monospace;
   font-size: 4rem;
   text-transform: uppercase;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
   text-shadow: 0.07em 0 0 rgba(255, 0, 0, 0.505), -0.035em -0.07em 0 rgba(0, 128, 0, 0.505), 0.035em 0.07em 0 rgba(0, 0, 255, 0.505);
 }
 
@@ -35,8 +67,8 @@ body {
           animation: move 600ms infinite;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
           clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  -webkit-transform: translate(-0.035em, -0.02em);
-          transform: translate(-0.035em, -0.02em);
+  -webkit-transform: translate(-0.05em, -0.025em);
+          transform: translate(-0.05em, -0.025em);
 }
 
 .gliched-move span:last-child {
@@ -45,10 +77,20 @@ body {
   left: 0;
   -webkit-animation: move 300ms infinite;
           animation: move 300ms infinite;
-  -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-          clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-  -webkit-transform: translate(0.025em, 0.05em);
-          transform: translate(0.025em, 0.05em);
+  -webkit-clip-path: polygon(0 60%, 100% 50%, 100% 10%, 10% 80%);
+          clip-path: polygon(0 60%, 100% 50%, 100% 10%, 10% 80%);
+  -webkit-transform: translate(0.05em, 0.1em);
+          transform: translate(0.05em, 0.1em);
+}
+
+.gliched-move:hover span:first-child {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+          clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
+
+.gliched-move:hover span:last-child {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+          clip-path: polygon(0 0, 0 0, 0 0, 0 0);
 }
 
 @-webkit-keyframes move {
