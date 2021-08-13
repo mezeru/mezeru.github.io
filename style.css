@@ -12,6 +12,11 @@ body a {
   color: white;
 }
 
+@font-face {
+  font-family: Pixel;
+  src: url("./assets/VCROSDMono.woff2");
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +26,16 @@ body a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0% 12%;
+}
+
+.navbar {
+  font-family: Pixel;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.815);
 }
 
 .navbar ul {
@@ -38,15 +53,24 @@ body a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
+  color: whitesmoke;
+  letter-spacing: 5px;
   opacity: 0.8;
 }
 
+.navbar ul a {
+  color: blueviolet;
+  text-shadow: 1px 2px 40px blueviolet;
+}
+
 .gliched-text {
-  color: #f3f3f3;
-  font-family: VCR OSD Mono,monospace;
-  font-size: 4rem;
+  color: rgba(228, 224, 224, 0.829);
+  font-family: Pixel,monospace;
+  line-height: 2em;
+  font-size: 2.5rem;
+  letter-spacing: 10px;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
@@ -54,36 +78,49 @@ body a {
 }
 
 .gliched-move {
-  -webkit-animation: move 500ms infinite;
-          animation: move 500ms infinite;
   position: relative;
+  color: white;
+}
+
+.gliched-move span {
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  z-index: 1;
 }
 
 .gliched-move span:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: inherit;
+  -webkit-animation: move 500ms infinite;
+          animation: move 500ms infinite;
+}
+
+.gliched-move span:nth-child(2) {
   -webkit-animation: move 600ms infinite;
           animation: move 600ms infinite;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
           clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-  -webkit-transform: translate(-0.05em, -0.025em);
-          transform: translate(-0.05em, -0.025em);
+  -webkit-transform: translate(-0.1em, -0.025em);
+          transform: translate(-0.1em, -0.025em);
 }
 
 .gliched-move span:last-child {
-  position: absolute;
-  top: 0;
-  left: 0;
   -webkit-animation: move 300ms infinite;
           animation: move 300ms infinite;
-  -webkit-clip-path: polygon(0 60%, 100% 50%, 100% 10%, 10% 80%);
-          clip-path: polygon(0 60%, 100% 50%, 100% 10%, 10% 80%);
-  -webkit-transform: translate(0.05em, 0.1em);
-          transform: translate(0.05em, 0.1em);
+  -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+          clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+  -webkit-transform: translate(0.1em, 0.025em);
+          transform: translate(0.1em, 0.025em);
 }
 
 .gliched-move:hover span:first-child {
+  position: inherit;
+  -webkit-animation: move 200ms infinite;
+          animation: move 200ms infinite;
+}
+
+.gliched-move:hover span:nth-child(2) {
   -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
           clip-path: polygon(0 0, 0 0, 0 0, 0 0);
 }
@@ -138,6 +175,60 @@ body a {
   }
   100% {
     text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.505), -0.025em -0.025em 0 rgba(0, 255, 0, 0.505), -0.025em -0.05em 0 rgba(0, 0, 255, 0.505);
+  }
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(-15px);
+            transform: translate(-15px);
+  }
+  32% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  33% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  65% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  66% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  100% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(-15px);
+            transform: translate(-15px);
+  }
+  32% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  33% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  65% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  66% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  100% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
   }
 }
 /*# sourceMappingURL=style.css.map */
