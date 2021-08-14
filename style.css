@@ -55,21 +55,21 @@ body a {
           justify-content: space-evenly;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: whitesmoke;
   letter-spacing: 5px;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .navbar ul p {
   color: blueviolet;
-  text-shadow: 1px 2px 40px blueviolet;
+  -webkit-filter: contrast(500%);
+          filter: contrast(500%);
 }
 
 .gliched-text {
   color: rgba(228, 224, 224, 0.829);
   font-family: Pixel,monospace;
   line-height: 2em;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: 10px;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease-in-out;
@@ -230,5 +230,60 @@ body a {
     -webkit-transform: translateX(15px);
             transform: translateX(15px);
   }
+}
+
+.skills {
+  font-family: Pixel;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 20rem;
+  color: white;
+}
+
+.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+.skill p {
+  font-size: 2em;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.skill-container {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgba(78, 77, 77, 0.329);
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+}
+
+.c {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 5px 0px 0px 5px;
+  background-color: blueviolet;
+  -webkit-box-shadow: 0px 0px 10px 3px blueviolet;
+          box-shadow: 0px 0px 10px 3px blueviolet;
 }
 /*# sourceMappingURL=style.css.map */
