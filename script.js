@@ -5,5 +5,4 @@ document.addEventListener('mousemove',(e)=>{
     var y = e.clientY;
     cursor.style.left = x+"px";
     cursor.style.top = y+"px";
-    console.log("moved");
 });
