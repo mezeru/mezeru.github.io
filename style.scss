@@ -265,15 +265,6 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
-  animation: scroll 1s infinite;
 }
 
 
-@keyframes scroll {
-  0%{
-    background-size: 30% 2px, 3px 100%;
-  }
-  100%{
-    background-size: 10% 10px, 5px 50%;
-  }
-}
