@@ -1,10 +1,8 @@
 body{
+  cursor: none;
+  height: 100vh;
     background-color: black;
-    p{
-      cursor:default;
-    }
     a{
-      cursor: pointer;
       text-decoration: none;
       color: white;
     }
@@ -24,7 +22,7 @@ body{
 .navbar{
   font-family: Pixel;
   position: sticky;
-  z-index: 10;
+  z-index: 2;
   top: 0;
   background-color: rgba(0, 0, 0, 0.815);
 
@@ -44,7 +42,6 @@ body{
     p{
       color: blueviolet;
       filter: contrast(500%);
-      cursor: pointer;
     }
 
     p:hover{
@@ -222,4 +219,19 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: rgba(201, 10, 207, 0.3);
   outline: 1px solid blueviolet;
+}
+
+#cursor{
+  transform: translate(-50%,-50%);
+  height: 20px;
+  width: 20px;
+  transition: all 50ms ease;
+  position: absolute;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 100;
+  box-shadow: 0px 0px 20px -3px white,
+  inset 0px 0px 10px -3px white;
 }
