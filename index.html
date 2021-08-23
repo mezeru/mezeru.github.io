@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="./style.css" >
     <title>Ruizo's Lair</title>
 </head>
-<body>
-    <div id="cursor"></div>
-    <div id="overlay-back"></div>
-    <div id="overlay-front"></div>
+<body id="body">
+
+        <audio preload="auto" id="audio" src="./assets/static.mp3" ></audio>
+        <div id="overlay-background"></div>
+        <div id="overlay-back"></div>
+        <div id="overlay-front"></div>
+
+    
+
     <nav class="navbar">
         <ul>
-            <a href="#">Experience</a>
-            <a href="#">Projects</a>
-            <img src="./assets/icon.png" style="height: auto;width: 3em;align-self: center;justify-self: center;filter: drop-shadow(0px 0px 5px #Ffffff);">
-            <a href="#">Social</a>
-            <a href="#">Contact Me</a>
+            <div id="cursor"></div>
+            <a class="nav-item" >Experience</a>
+            <a class="nav-item">Projects</a>
+            <img class="icon-hero" src="./assets/icon.png">
+            <a class="nav-item">Social</a>
+            <a class="nav-item">Contact Me</a>
         </ul>
     </nav>
-    <div class="container">
-        
+    <div id="main">
+        <section class="child" id="about">
         <p class="gliched-text">
             Hi! I'm <span class="gliched-move gliched-text">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
@@ -31,12 +37,31 @@
         <p class="gliched-text" style="margin-bottom:0">
             I am pursuing a Bachelor's degree (B.Tech) in Computer Science Engineering at  <span style="color: white;"> National Institute of technology, Delhi</span>
         </p>
-        <p class="gliched-text" style="margin-bottom:0">
-           I love Gaming & Music 
-        </p>
-    
+        </section>
+
+        <section class="child" id="Exp">
+            <span class="gliched-move gliched-text">
+                <a href="https://github.com/mezeru"><span>Experience</span><span>Experience</span> <span>Experience</span></span></a>
+        </section>
+        <section class="child" id="proj">
+            <span class="gliched-move gliched-text">
+                <a href="https://github.com/mezeru"><span>Projects</span><span>Projects</span> <span>Projects</span></span></a>
+        </section>
+
+        <section class="child" id="social">
+            <span class="gliched-move gliched-text">
+                <a href="https://github.com/mezeru"><span>social</span><span>social</span> <span>social</span></span></a>
+        </section>
+
+        <section class="child" id="contact">
+            <span class="gliched-move gliched-text">
+                <a href="https://github.com/mezeru"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></span></a>
+        </section>
 
     </div>
+
+
+    
 </body>
 <footer>
     <script src="./script.js" ></script>
