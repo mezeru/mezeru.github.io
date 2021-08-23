@@ -22,7 +22,7 @@ body{
 .navbar{
   font-family: Pixel;
   position: sticky;
-  z-index: 2;
+  z-index: 3;
   top: 0;
   background-color: rgba(0, 0, 0, 0.815);
 
@@ -55,7 +55,7 @@ body{
 
 
 .gliched-text{
-    
+    z-index: 0;
     color: rgba(219, 216, 216, 0.863);
     font-family: Pixel,monospace;
     line-height: 2em;
@@ -99,7 +99,8 @@ body{
 }
 
 .gliched-move:hover{
-
+  
+  z-index: 2;
   span:first-child{
     position: inherit;
     animation: move 200ms infinite;
@@ -226,7 +227,7 @@ body::-webkit-scrollbar-thumb {
   height: 20px;
   width: 20px;
   transition: all 50ms ease;
-  position: absolute;
+  position: fixed;
   border: 2px solid;
   border-color: white;
   border-radius: 50%;
@@ -235,3 +236,36 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0px 0px 20px -3px white,
   inset 0px 0px 10px -3px white;
 }
+
+#overlay-back{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  cursor: pointer;
+  opacity: 0.1;
+  background-image: url("./assets/noise\ try.gif");
+}
+
+
+#overlay-front::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 1;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+
+

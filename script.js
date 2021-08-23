@@ -1,8 +1,8 @@
 
 const cursor = document.getElementById("cursor");
 document.addEventListener('mousemove',(e)=>{
-    var x = e.pageX;
-    var y = e.pageY;
+    var x = e.clientX;
+    var y = e.clientY;
     cursor.style.left = x+"px";
     cursor.style.top = y+"px";
     console.log("moved");
