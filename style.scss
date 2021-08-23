@@ -26,24 +26,31 @@ body{
   position: sticky;
   z-index: 10;
   top: 0;
-  padding: 5px;
   background-color: rgba(0, 0, 0, 0.815);
 
   ul{
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
+    justify-content: space-around;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 5px;
     opacity: 1;
+    
 
     p{
       color: blueviolet;
       filter: contrast(500%);
+      cursor: pointer;
     }
+
+    p:hover{
+      animation: shake 100ms ease infinite;
+    }
+
   }
   
 
@@ -51,19 +58,18 @@ body{
 
 
 .gliched-text{
-
-    color: rgba(228, 224, 224, 0.829);
+    
+    color: rgba(219, 216, 216, 0.863);
     font-family: Pixel,monospace;
     line-height: 2em;
-    font-size: 3rem;
-    letter-spacing: 10px;
+    font-size: 3.2rem;
     text-transform: uppercase;
 
     transition: all 500ms ease-in-out;
 
-    text-shadow:0.07em 0 0 rgba(255, 0, 0, 0.505),
-    -0.035em -0.07em 0 rgba(0, 128, 0, 0.505),
-    0.035em 0.07em 0 rgba(0, 0, 255, 0.505);
+    text-shadow:0.1em 0 0 rgba(255, 0, 0, 0.349),
+    0.1em 0.07em 0 rgba(0, 128, 0, 0.349),
+    -0.1em -0.07em 0 rgba(0, 0, 255, 0.349);
 }
 
 .gliched-move{
@@ -73,7 +79,7 @@ body{
     span{
       position: absolute;
       left: 0;
-      transition: all 400ms ease-in-out;
+      transition: all 400ms ease-out;
       z-index:1;
     }
 
@@ -84,13 +90,13 @@ body{
 
     span:nth-child(2){
         animation: move 600ms infinite;
-        clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+        clip-path: polygon(0 20%, 100% 0, 100% 45%, 0 45%);
         transform: translate(-0.1em, -0.025em);
     }
 
     span:last-child{
         animation: move 300ms infinite;
-        clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+        clip-path: polygon(0 55%, 100% 45%, 100% 100%, 0 100%);
         transform: translate(0.1em, 0.025em);
     }
 }
@@ -151,10 +157,10 @@ body{
 
 @keyframes shake{
   0% {
-    transform: translate(-15px);
+    transform: translate(-1.5px);
   }
   32% {
-    transform: translateX(-15px);
+    transform: translateX(-1.5px);
   }
   33% {
     transform: translateX(0px);
@@ -163,10 +169,10 @@ body{
     transform: translateX(0px);
   }
   66% {
-    transform: translateX(15px);
+    transform: translateX(1.5px);
   }
   100% {
-    transform: translateX(15px);
+    transform: translateX(1.5px);
   }
 
 }
@@ -207,4 +213,13 @@ body{
   border-radius: 5px 0px 0px 5px ;
   background-color: blueviolet;
   box-shadow: 0px 0px 10px 3px blueviolet;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(201, 10, 207, 0.3);
+  outline: 1px solid blueviolet;
 }

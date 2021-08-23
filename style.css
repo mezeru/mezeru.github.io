@@ -34,11 +34,11 @@ body a {
   position: sticky;
   z-index: 10;
   top: 0;
-  padding: 5px;
   background-color: rgba(0, 0, 0, 0.815);
 }
 
 .navbar ul {
+  padding: 0;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,10 +50,9 @@ body a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  font-size: 1.2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 5px;
   opacity: 1;
@@ -63,18 +62,23 @@ body a {
   color: blueviolet;
   -webkit-filter: contrast(500%);
           filter: contrast(500%);
+  cursor: pointer;
+}
+
+.navbar ul p:hover {
+  -webkit-animation: shake 100ms ease infinite;
+          animation: shake 100ms ease infinite;
 }
 
 .gliched-text {
-  color: rgba(228, 224, 224, 0.829);
+  color: rgba(219, 216, 216, 0.863);
   font-family: Pixel,monospace;
   line-height: 2em;
-  font-size: 3rem;
-  letter-spacing: 10px;
+  font-size: 3.2rem;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  text-shadow: 0.07em 0 0 rgba(255, 0, 0, 0.505), -0.035em -0.07em 0 rgba(0, 128, 0, 0.505), 0.035em 0.07em 0 rgba(0, 0, 255, 0.505);
+  text-shadow: 0.1em 0 0 rgba(255, 0, 0, 0.349), 0.1em 0.07em 0 rgba(0, 128, 0, 0.349), -0.1em -0.07em 0 rgba(0, 0, 255, 0.349);
 }
 
 .gliched-move {
@@ -85,8 +89,8 @@ body a {
 .gliched-move span {
   position: absolute;
   left: 0;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
   z-index: 1;
 }
 
@@ -99,8 +103,8 @@ body a {
 .gliched-move span:nth-child(2) {
   -webkit-animation: move 600ms infinite;
           animation: move 600ms infinite;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-          clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 45%, 0 45%);
+          clip-path: polygon(0 20%, 100% 0, 100% 45%, 0 45%);
   -webkit-transform: translate(-0.1em, -0.025em);
           transform: translate(-0.1em, -0.025em);
 }
@@ -108,8 +112,8 @@ body a {
 .gliched-move span:last-child {
   -webkit-animation: move 300ms infinite;
           animation: move 300ms infinite;
-  -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-          clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 55%, 100% 45%, 100% 100%, 0 100%);
+          clip-path: polygon(0 55%, 100% 45%, 100% 100%, 0 100%);
   -webkit-transform: translate(0.1em, 0.025em);
           transform: translate(0.1em, 0.025em);
 }
@@ -180,12 +184,12 @@ body a {
 
 @-webkit-keyframes shake {
   0% {
-    -webkit-transform: translate(-15px);
-            transform: translate(-15px);
+    -webkit-transform: translate(-1.5px);
+            transform: translate(-1.5px);
   }
   32% {
-    -webkit-transform: translateX(-15px);
-            transform: translateX(-15px);
+    -webkit-transform: translateX(-1.5px);
+            transform: translateX(-1.5px);
   }
   33% {
     -webkit-transform: translateX(0px);
@@ -196,23 +200,23 @@ body a {
             transform: translateX(0px);
   }
   66% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    -webkit-transform: translateX(1.5px);
+            transform: translateX(1.5px);
   }
   100% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    -webkit-transform: translateX(1.5px);
+            transform: translateX(1.5px);
   }
 }
 
 @keyframes shake {
   0% {
-    -webkit-transform: translate(-15px);
-            transform: translate(-15px);
+    -webkit-transform: translate(-1.5px);
+            transform: translate(-1.5px);
   }
   32% {
-    -webkit-transform: translateX(-15px);
-            transform: translateX(-15px);
+    -webkit-transform: translateX(-1.5px);
+            transform: translateX(-1.5px);
   }
   33% {
     -webkit-transform: translateX(0px);
@@ -223,12 +227,12 @@ body a {
             transform: translateX(0px);
   }
   66% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    -webkit-transform: translateX(1.5px);
+            transform: translateX(1.5px);
   }
   100% {
-    -webkit-transform: translateX(15px);
-            transform: translateX(15px);
+    -webkit-transform: translateX(1.5px);
+            transform: translateX(1.5px);
   }
 }
 
@@ -285,5 +289,14 @@ body a {
   background-color: blueviolet;
   -webkit-box-shadow: 0px 0px 10px 3px blueviolet;
           box-shadow: 0px 0px 10px 3px blueviolet;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(201, 10, 207, 0.3);
+  outline: 1px solid blueviolet;
 }
 /*# sourceMappingURL=style.css.map */
