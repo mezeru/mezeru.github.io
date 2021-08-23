@@ -346,5 +346,25 @@ body::-webkit-scrollbar-thumb {
   z-index: 1;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
+  -webkit-animation: scroll 1s infinite;
+          animation: scroll 1s infinite;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    background-size: 30% 2px, 3px 100%;
+  }
+  100% {
+    background-size: 10% 10px, 5px 50%;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    background-size: 30% 2px, 3px 100%;
+  }
+  100% {
+    background-size: 10% 10px, 5px 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
