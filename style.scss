@@ -130,6 +130,7 @@ body{
     }
 }
 
+
 .gliched-move:hover{
   
   span:first-child{
@@ -184,27 +185,7 @@ body{
       }
 }
 
-@keyframes shake{
-  0% {
-    transform: translate(-1.5px);
-  }
-  32% {
-    transform: translateX(-1.5px);
-  }
-  33% {
-    transform: translateX(0px);
-  }
-  65% {
-    transform: translateX(0px);
-  }
-  66% {
-    transform: translateX(1.5px);
-  }
-  100% {
-    transform: translateX(1.5px);
-  }
 
-}
 
 .skills{
   font-family: Pixel;

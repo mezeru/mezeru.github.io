@@ -222,60 +222,6 @@ body a {
   }
 }
 
-@-webkit-keyframes shake {
-  0% {
-    -webkit-transform: translate(-1.5px);
-            transform: translate(-1.5px);
-  }
-  32% {
-    -webkit-transform: translateX(-1.5px);
-            transform: translateX(-1.5px);
-  }
-  33% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  65% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  66% {
-    -webkit-transform: translateX(1.5px);
-            transform: translateX(1.5px);
-  }
-  100% {
-    -webkit-transform: translateX(1.5px);
-            transform: translateX(1.5px);
-  }
-}
-
-@keyframes shake {
-  0% {
-    -webkit-transform: translate(-1.5px);
-            transform: translate(-1.5px);
-  }
-  32% {
-    -webkit-transform: translateX(-1.5px);
-            transform: translateX(-1.5px);
-  }
-  33% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  65% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  66% {
-    -webkit-transform: translateX(1.5px);
-            transform: translateX(1.5px);
-  }
-  100% {
-    -webkit-transform: translateX(1.5px);
-            transform: translateX(1.5px);
-  }
-}
-
 .skills {
   font-family: Pixel;
   display: -ms-grid;
