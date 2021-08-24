@@ -1,21 +1,22 @@
-const exp = document.getElementById("Exp");
-const proj = document.getElementById("proj");
-const social = document.getElementById("social");
-const about = document.getElementById("about");
-const contact = document.getElementById("contact");
-const icon = document.querySelector(".icon-hero");
 const cursor = document.getElementById("cursor");
-const overlaystatic = document.getElementById("overlay-back");
-const overlayBack = document.getElementById("overlay-background");
-const audio = document.getElementById("audio");
-const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
-
 document.addEventListener('mousemove',(e)=>{
     var x = e.clientX;
     var y = e.clientY;
     cursor.style.left = x+"px";
     cursor.style.top = y+"px";
 });
+
+const exp = document.getElementById("Exp");
+const proj = document.getElementById("proj");
+const social = document.getElementById("social");
+const about = document.getElementById("about");
+const contact = document.getElementById("contact");
+const icon = document.querySelector(".icon-hero");
+
+const overlaystatic = document.getElementById("overlay-back");
+const overlayBack = document.getElementById("overlay-background");
+const audio = document.getElementById("audio");
+const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
 
 const nav = document.getElementsByClassName("nav-item");
 const body = document.getElementById("body");
