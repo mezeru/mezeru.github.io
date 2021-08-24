@@ -6,6 +6,11 @@ document.addEventListener('mousemove',(e)=>{
     cursor.style.top = y+"px";
 });
 
+$(document).ready(()=>{
+    lowLag.init({'urlPrefix':'./assets/'});
+    lowLag.load(['static.mp3'],'static');
+})
+
 const exp = document.getElementById("Exp");
 const proj = document.getElementById("proj");
 const social = document.getElementById("social");
@@ -15,7 +20,7 @@ const icon = document.querySelector(".icon-hero");
 
 const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
-const audio = document.getElementById("audio");
+//const audio = document.getElementById("audio");
 const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
 
 const nav = document.getElementsByClassName("nav-item");
@@ -64,7 +69,8 @@ nav[3].addEventListener("click",()=>{
 
 
 function scrollIn(num){
-    audio.play();
+    //audio.play();
+    lowLag.play('static');
     body.style.opacity = "0";
     overlaystatic.style.animation = "change 500ms ease";
     body.style.animation = "scroll 1s ease";
