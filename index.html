@@ -14,6 +14,9 @@
         <div id="overlay-background"></div>
         <div id="overlay-back"></div>
         <div id="overlay-front"></div>
+        <div id="overlay-bottom"></div>
+        <div id="overlay-left"></div>
+        <div id="overlay-right"></div>
 
     
 
@@ -41,21 +44,40 @@
 
         <section class="child" id="Exp">
             <span class="gliched-move gliched-text">
-                <a href="https://github.com/mezeru"><span>Experience</span><span>Experience</span> <span>Experience</span></span></a>
+                <a><span>Experience</span><span>Experience</span> <span>Experience</span></span></a>
         </section>
         <section class="child" id="proj">
             <span class="gliched-move gliched-text">
-                <a href="https://github.com/mezeru"><span>Projects</span><span>Projects</span> <span>Projects</span></span></a>
+                <a><span>Projects</span><span>Projects</span> <span>Projects</span></span></a>
         </section>
 
         <section class="child" id="social">
             <span class="gliched-move gliched-text">
-                <a href="https://github.com/mezeru"><span>social</span><span>social</span> <span>social</span></span></a>
+                <a><span>social</span><span>social</span> <span>social</span></span></a>
         </section>
 
         <section class="child" id="contact">
-            <span class="gliched-move gliched-text">
-                <a href="https://github.com/mezeru"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></span></a>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; " >
+                <div style="display: flex;align-items: center;justify-content: center;" >
+                    <span class="gliched-move gliched-text">
+                        <a><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></a>
+                        <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
+                    </span>
+                </div>
+                <form style="display: flex;align-items: center;justify-content: center; flex-direction: column; padding: 0% 5%;">
+
+                    <div style="display: flex;justify-content: space-around ; flex-direction: row; width: 100%;">
+                        <input type="text" style="width: 45%;"  id="fname" name="fname" placeholder="Your Name">
+                        <input type="email" style="width: 45%;"  id="email" name="email" placeholder="Your Email Address">
+                    </div>
+                    <br>
+                    <input type="text" id="Subject" style="width: 100%;" cols="50" name="Subject" placeholder="Subject">
+                    <br>
+                    <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" required></textarea>
+                    <button class="submit">Submit</button>                   
+                </form>
+            </div>
+            
         </section>
 
     </div>

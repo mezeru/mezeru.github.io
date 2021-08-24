@@ -8,7 +8,7 @@ const cursor = document.getElementById("cursor");
 const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
 const audio = document.getElementById("audio");
-const backgrounds = ["./assets/Home.jpg","./assets/experience.jpg","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.png"]
+const backgrounds = ["./assets/Home.png","./assets/experience.jpg","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
 
 document.addEventListener('mousemove',(e)=>{
     var x = e.clientX;

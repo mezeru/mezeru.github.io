@@ -316,6 +316,32 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
 }
 
+#overlay-bottom{
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  bottom: 0;
+  padding-top: 100px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.01)0% ,rgba(0,0,0,0.6) 100%);
+}
+
+#overlay-right{
+  position: fixed;
+  width: 2.5%;
+  height: 100%;
+  z-index: 50;
+  right: 0;
+  background: linear-gradient(90deg, rgba(0,0,0,0.0)0% ,rgba(0,0,0,0.3) 100%);
+}
+
+#overlay-left{
+  position: fixed;
+  width: 2.5%;
+  height: 100%;
+  z-index: 50;
+  left: 0;
+  background: linear-gradient(270deg, rgba(0,0,0,0.00)0% ,rgba(0,0,0,0.3) 100%);
+}
 
 #overlay-background{
   position: fixed;
@@ -365,4 +391,67 @@ body::-webkit-scrollbar-thumb {
     opacity: 0.25;
   }
   
+}
+
+input{
+  cursor: none;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  margin: 2% 0%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+input:focus{
+  z-index: 10;
+  background-color: black;
+}
+input::placeholder{
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+textarea{
+  margin: 2% 0%;
+  cursor: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  border: none;
+  resize: none;
+}
+
+textarea:focus{
+  background-color: black;
+}
+
+textarea::placeholder{
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.submit{
+  margin: 2%;
+  padding:2% 5% ;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.664);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: none;
+  z-index: 10;
+  cursor: none;
+  text-shadow: 0px 0px 15px #000000;
+  transition: all 200ms ease-in-out;
+}
+
+.submit:hover{
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  text-shadow: 0px 0px 15px #ffffff;
 }
