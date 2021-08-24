@@ -457,3 +457,15 @@ textarea::placeholder{
   color: #ffffff;
   text-shadow: 0px 0px 15px #ffffff;
 }
+
+.social-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5em;
+  text-align: center;
+}
+
+.social-item:hover{
+  z-index: 10;
+  color: #ffffff;
+}

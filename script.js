@@ -65,10 +65,10 @@ nav[3].addEventListener("click",()=>{
 function scrollIn(num){
     audio.play();
     body.style.opacity = "0";
-    overlaystatic.style.animation = "change 3s ease";
-    body.style.animation = "scroll 2s ease";
+    overlaystatic.style.animation = "change 500ms ease";
+    body.style.animation = "scroll 1s ease";
     overlayBack.style.backgroundImage = "url("+backgrounds[num]+")";
-    setTimeout(() => { body.style.removeProperty('animation');}, 2100);
-    setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 3100);
+    setTimeout(() => { body.style.removeProperty('animation');}, 1100);
+    setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 600);
     body.style.opacity = "1";
 }
