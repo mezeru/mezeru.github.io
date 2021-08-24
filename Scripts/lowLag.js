@@ -358,13 +358,7 @@ this.audioContextPendingRequest = {};
 
 
 	this.msg = function(m){
-		m = "-- lowLag "+m;
-		if(lowLag.debug == 'both' || lowLag.debug == 'console'){
-			console.log(m);
-		}
-		if(lowLag.divDebug){
-			lowLag.divDebug.innerHTML += m+"\n";			
-		}
+		
 	}
 
 
