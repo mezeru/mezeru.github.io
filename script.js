@@ -23,9 +23,14 @@ const body = document.getElementById("body");
 for (var i = 0 ; i < nav.length ; i++){
     nav[i].addEventListener("mouseenter",(e)=>{
         cursor.style.transform = "scale(1.7)";
+        cursor.style.border = "solid 1px white";
+        cursor.style.removeProperty("animation");
+        cursor.style.boxShadow = "0px 0px 0px 0px white"
     })
     nav[i].addEventListener("mouseleave",(e)=>{
         cursor.style.transform = "scale(1)";
+        cursor.style.border = "solid 2px white";
+        cursor.style.animation = "beat 1s infinite ease-in-out";
     })
 }
 

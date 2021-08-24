@@ -258,7 +258,7 @@ body::-webkit-scrollbar-thumb {
   transform: translate(-50%,-50%);
   height: 20px;
   width: 20px;
-  transition: all 10ms ease;
+  transition: all 40ms;
   position: fixed;
   border: 2px solid;
   border-color: white;
@@ -406,7 +406,7 @@ input{
 }
 input:focus{
   z-index: 10;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.746);
 }
 input::placeholder{
   color: #ffffff;
@@ -427,7 +427,7 @@ textarea{
 }
 
 textarea:focus{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.746);
 }
 
 textarea::placeholder{
