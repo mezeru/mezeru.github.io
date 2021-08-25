@@ -32,7 +32,7 @@ body a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0% 12%;
+  padding: 0% 10%;
   scroll-snap-align: start;
 }
 
@@ -112,7 +112,7 @@ body a {
 }
 
 .gliched-text {
-  color: rgba(219, 216, 216, 0.863);
+  color: #dbd8d8;
   font-family: Pixel,monospace;
   line-height: 2em;
   font-size: 2.5rem;
@@ -570,13 +570,17 @@ textarea::placeholder {
   border: none;
   z-index: 10;
   cursor: none;
-  text-shadow: 0px 0px 15px #000000;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+  text-shadow: 0px 0px 10px #000000;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .submit:hover {
   background-color: black;
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
   color: #ffffff;
   text-shadow: 0px 0px 15px #ffffff;
 }
