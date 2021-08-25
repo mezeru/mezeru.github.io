@@ -40,31 +40,31 @@ for (var i = 0 ; i < nav.length ; i++){
     })
 }
 
-icon.addEventListener("click",() => {
-    about.scrollIntoView();
-    scrollIn(0)
-});
+// icon.addEventListener("click",() => {
+//     about.scrollIntoView();
+//     scrollIn(0)
+// });
 
 
-nav[0].addEventListener("click",()=>{
-    exp.scrollIntoView();
-    scrollIn(1);
-});
+// nav[0].addEventListener("click",()=>{
+//     exp.scrollIntoView();
+//     scrollIn(1);
+// });
 
-nav[1].addEventListener("click",()=>{
-    proj.scrollIntoView();
-    scrollIn(2);
-});
+// nav[1].addEventListener("click",()=>{
+//     proj.scrollIntoView();
+//     scrollIn(2);
+// });
 
-nav[2].addEventListener("click",()=>{
-    social.scrollIntoView();
-    scrollIn(3);
-});
+// nav[2].addEventListener("click",()=>{
+//     social.scrollIntoView();
+//     scrollIn(3);
+// });
 
-nav[3].addEventListener("click",()=>{
-    contact.scrollIntoView(0);
-    scrollIn(4);
-});
+// nav[3].addEventListener("click",()=>{
+//     contact.scrollIntoView(0);
+//     scrollIn(4);
+// });
 
 
 

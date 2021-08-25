@@ -7,7 +7,8 @@
     <link rel="icon" href="./assets/icon.png">
     <script src="./Scripts/lowLag.js"></script>
     <script src="./Scripts/sm2/js/soundmanager2.js"></script>
-    <script src="//code.jquery.com/jquery-1.8.0.min.js"></script>   
+    <script src="//code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script src="//unpkg.com/navigo"></script>
     <link rel="stylesheet" href="./style.css" >
     <title>Ruizo's Lair</title>
 </head>
@@ -25,83 +26,14 @@
     <nav class="navbar">
         <ul>
             
-            <a class="nav-item" >Experience</a>
-            <a class="nav-item">Projects</a>
-            <img class="icon-hero" src="./assets/icon.png">
-            <a class="nav-item">Social</a>
-            <a class="nav-item">Contact Me</a>
+            <a href="Experience" data-navigo class="nav-item" >Experience</a>
+            <a href="Projects" data-navigo class="nav-item">Projects</a>
+            <a href="/" data-navigo ><img  class="icon-hero" src="./assets/icon.png"></a>
+            <a href="Social" data-navigo  class="nav-item">Social</a>
+            <a href="Contact" data-navigo  class="nav-item">Contact Me</a>
         </ul>
     </nav>
     <div id="main">
-        <section class="child" id="about">
-        <p class="gliched-text">
-            Hi! I'm <span class="gliched-move gliched-text">
-                <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
-                , a Full Stack Web developer & a CSS enthusiast. I create WEBSITES for fun and my passion is centering DIv's.  
-        </p>
-        <p class="gliched-text" style="margin-bottom:0">
-            I am pursuing a Bachelor's degree (B.Tech) in Computer Science Engineering at  <span style="color: white;"> National Institute of technology, Delhi</span>
-        </p>
-    
-        
-        <a href="https://drive.google.com/file/d/1traoS4zLFMhL56OUmNTL_ey6pNfV-Gyb/view?usp=sharing" style="align-self: flex-start; font-size: 1.8em; margin-top: 10%;" class="gliched-move gliched-text social-item" >My RESUME</a>
-        
-        </section>
-
-        <section class="child" id="Exp">
-            <span class="gliched-move gliched-text">
-                <a style="font-size: 3em;"><span>Experience</span><span>Experience</span> <span>Experience</span></span></a>
-        </section>
-        <section class="child" id="proj">
-            <span class="gliched-move gliched-text">
-                <a style="font-size: 2.5em;"><span>Projects</span><span>Projects</span> <span>Projects</span></span></a>
-        </section>
-
-        <section class="child" id="social">
-            <div style="display: grid; grid-template-columns: 1fr 1fr;column-gap: 15rem">
-            
-                <div  class="social-items">
-                    <a href="https://github.com/mezeru" class="gliched-text social-item">Github</a>
-                    <a href="https://www.linkedin.com/in/yash-chaudhari-9194311bb/" class="gliched-text social-item">linkedin</a>
-                    <a href="https://open.spotify.com/user/31d5ihybeudzqweelv7pc7tsjsmm" class="gliched-text social-item">Spotify</a>
-                    <a href="https://www.instagram.com/_juz_someone_/" class="gliched-text social-item">Instragram</a>
-                    <a href="https://steamcommunity.com/id/Ruizolas/" class="gliched-text social-item">Steam</a>
-                    <a href="https://www.snapchat.com/add/juz.someone" class="gliched-text social-item">Snapchat</a>
-                </div>
-
-                <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
-                    <span class="gliched-move gliched-text">
-                        <a style="font-size: 2em;"><span>social</span><span>social</span> <span>social</span></a>
-                        <p style="font-size: 1.5rem;line-height: 25px;">Get in Touch with me</p>
-                    </span>
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="child" id="contact">
-            <div style="display:grid; grid-template-columns: 1fr 1fr;column-gap: 5rem;" >
-                <div style="display: flex;align-items: center;justify-content: center;" >
-                    <span class="gliched-move gliched-text">
-                        <a href="mailto: jermpro0@gmail.com" style="font-size: 2em;"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></a>
-                        <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
-                    </span>
-                </div>
-                <form style="display: flex;align-items: center;justify-content: center; flex-direction: column;">
-
-                    <div style="display: flex;justify-content: space-around ; flex-direction: row; width: 100%;">
-                        <input type="text" style="width: 45%;"  id="fname" name="fname" placeholder="Your Name">
-                        <input type="email" style="width: 45%;"  id="email" name="email" placeholder="Your Email Address">
-                    </div>
-                    <br>
-                    <input type="text" id="Subject" style="width: 100%;" cols="50" name="Subject" placeholder="Subject">
-                    <br>
-                    <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" required></textarea>
-                    <button class="submit">Submit</button>                   
-                </form>
-            </div>
-            
-        </section>
 
     </div>
 
@@ -110,5 +42,6 @@
 </body>
 <footer>
     <script src="./script.js" ></script>
+    <script type="module" src="./Scripts/router.js"></script>
 </footer>
 </html>
