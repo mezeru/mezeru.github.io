@@ -47,7 +47,7 @@ import error from "../pages/error.js"
       render(error,main);
   });
 
-    router.navigate("/");
+    router.resolve();
   });
 
 
