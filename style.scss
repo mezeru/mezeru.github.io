@@ -15,6 +15,15 @@ body{
   
 }
 
+@keyframes start {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 .child {
   height: 100vh;
   display: flex;
@@ -471,3 +480,4 @@ textarea::placeholder{
     font-size: 1em;
   }
 }
+

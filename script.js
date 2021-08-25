@@ -11,6 +11,8 @@ $(document).ready(()=>{
     lowLag.load(['static.mp3'],'static');
 })
 
+
+
 const exp = document.getElementById("Exp");
 const proj = document.getElementById("proj");
 const social = document.getElementById("social");
@@ -25,6 +27,11 @@ const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Pro
 
 const nav = document.getElementsByClassName("nav-item");
 const body = document.getElementById("body");
+
+const start = () => {
+    body.style.animation = "start 1s ease-in";
+}
+
 
 for (var i = 0 ; i < nav.length ; i++){
     nav[i].addEventListener("mouseenter",(e)=>{

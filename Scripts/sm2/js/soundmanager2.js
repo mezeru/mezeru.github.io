@@ -1139,9 +1139,9 @@ function SoundManager(smURL, smID) {
     if (_hasConsole && _s.useConsole) {
       sMethod = _debugLevels[sType];
       if (typeof console[sMethod] !== 'undefined') {
-        console[sMethod](sText);
+        //console[sMethod](sText);
       } else {
-        console.log(sText);
+        //console.log(sText);
       }
       if (_s.consoleOnly) {
         return true;

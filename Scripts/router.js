@@ -7,7 +7,6 @@ import {render} from 'https://unpkg.com/lit-html?module';
 import error from "../pages/error.js"
 
 
-    window.addEventListener("load", () => {
     const router = new Navigo("/");
     const main = document.getElementById("main");
     const routes = [
@@ -44,9 +43,15 @@ import error from "../pages/error.js"
       });
       
     });
-    router.resolve();
-    })
 
+    router.notFound(()=> {
+      render(error,main);
+  });
+
+    router.resolve();
+
+
+  
 
     
 
