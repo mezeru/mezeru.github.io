@@ -1,5 +1,10 @@
-const about = `
-<section class="child" id="about">
+import {html} from 'https://unpkg.com/lit-html?module';
+
+const about = () =>
+{
+    return html
+    `
+    <section class="child" id="about">
         <p class="gliched-text">
             Hi! I'm <span class="gliched-move gliched-text">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
@@ -12,8 +17,9 @@ const about = `
         
         <a href="https://drive.google.com/file/d/1traoS4zLFMhL56OUmNTL_ey6pNfV-Gyb/view?usp=sharing" style="align-self: flex-start; font-size: 1.8em; margin-top: 10%;" class="gliched-move gliched-text social-item" >My RESUME</a>
         
-</section>
-
-`
+    </section>
+    `
+    
+}
 
 export default about;

@@ -1,4 +1,6 @@
-const experiment = `
+import {html} from 'https://unpkg.com/lit-html?module';
+
+const experiment = () => {return html `
 
 <section class="child" id="Exp">
 <span class="gliched-move gliched-text">
@@ -6,4 +8,5 @@ const experiment = `
 </section>
 
 `
+}
 export default experiment;

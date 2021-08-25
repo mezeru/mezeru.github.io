@@ -2,7 +2,8 @@ import about from "../pages/about.js";
 import contactPage from "../pages/contact.js";
 import socialPage from "../pages/social.js";
 import projectsPage from "../pages/projects.js";
-import experimentPage from "../pages/experiment.js"
+import experimentPage from "../pages/experiment.js";
+import {html, render} from 'https://unpkg.com/lit-html?module';
 
 window.addEventListener("load", () => {
     const router = new Navigo("/");
@@ -10,23 +11,23 @@ window.addEventListener("load", () => {
 
     router
     .on("/", () => {
-        main.innerHTML = about;
+        render(about(),main);
         scrollIn(0);
       })
       .on("/Experience", () => {
-        main.innerHTML = experimentPage;
+        render(experimentPage(),main);
         scrollIn(1);
       })
       .on("/Projects", () => {
-        main.innerHTML = projectsPage;
+        render(projectsPage(),main);
         scrollIn(2);
       })
       .on("/Social", () => {
-        main.innerHTML = socialPage;
+        render(socialPage(),main);
         scrollIn(3);
       })
       .on("/Contact", () => {
-        main.innerHTML = contactPage;
+        render(contactPage(),main);
         scrollIn(4);
       })
       .resolve();

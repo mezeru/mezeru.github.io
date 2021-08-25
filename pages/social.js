@@ -1,4 +1,6 @@
-const social = `
+import {html} from 'https://unpkg.com/lit-html?module';
+
+const social = () => {return html `
 
 <section class="child" id="social">
             <div style="display: grid; grid-template-columns: 1fr 1fr;column-gap: 15rem">
@@ -23,5 +25,6 @@ const social = `
 </section>
 
 `
+}
 
 export default social;

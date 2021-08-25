@@ -1,4 +1,7 @@
-const contact = `
+import {html} from 'https://unpkg.com/lit-html?module';
+
+const contact = () => {return html 
+`
 
 <section class="child" id="contact">
             <div style="display:grid; grid-template-columns: 1fr 1fr;column-gap: 5rem;" >
@@ -24,5 +27,5 @@ const contact = `
             
 </section>
 
-`
+`}
 export default contact;
