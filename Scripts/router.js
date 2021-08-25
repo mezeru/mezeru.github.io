@@ -5,8 +5,8 @@ import projectsPage from "../pages/projects.js";
 import experiencePage from "../pages/experiment.js";
 import {render} from 'https://unpkg.com/lit-html?module';
 import error from "../pages/error.js"
-
-
+  window.addEventListener("load",()=>{
+    console.log("loaded");
     const router = new Navigo("/");
     const main = document.getElementById("main");
     const routes = [
@@ -48,7 +48,8 @@ import error from "../pages/error.js"
       render(error,main);
   });
 
-    router.resolve();
+    router.navigate("/");
+  });
 
 
   
