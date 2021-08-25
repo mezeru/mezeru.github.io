@@ -3,7 +3,7 @@ import {html} from 'https://unpkg.com/lit-html?module';
 const social = () => {return html `
 
 <section class="child" id="social">
-            <div style="display: grid; grid-template-columns: 1fr 1fr;column-gap: 15rem">
+            <div style="display: grid; grid-template-columns: 1fr 1fr;column-gap:10rem">
             
                 <div  class="social-items">
                     <a href="https://github.com/mezeru" class="gliched-text social-item">Github</a>

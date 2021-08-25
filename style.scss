@@ -188,26 +188,6 @@ body{
 
 
 
-.skills{
-  font-family: Pixel;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20rem;
-  color: white;
-}
-
-.skill{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 5%;
-  p{
-    font-size: 2em;
-    flex: 3;
-  }
-}
-
 .skill-container{
   position: relative;
   width: 100%;
@@ -445,8 +425,8 @@ textarea::placeholder{
   font-size: 1.2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 5em;
   row-gap: 5em;
+  column-gap: 5em;
   text-align: center;
 }
 

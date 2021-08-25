@@ -222,40 +222,6 @@ body a {
   }
 }
 
-.skills {
-  font-family: Pixel;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 20rem;
-  color: white;
-}
-
-.skill {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5%;
-}
-
-.skill p {
-  font-size: 2em;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-}
-
 .skill-container {
   position: relative;
   width: 100%;
@@ -591,9 +557,9 @@ textarea::placeholder {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  row-gap: 5em;
   -webkit-column-gap: 5em;
           column-gap: 5em;
-  row-gap: 5em;
   text-align: center;
 }
 
