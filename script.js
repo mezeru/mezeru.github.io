@@ -26,8 +26,7 @@ const overlayBack = document.getElementById("overlay-background");
 const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
 
 const nav = document.getElementsByClassName("nav-item");
-const body = document.getElementById("main");
-
+const main = document.getElementById("main");
 
 for (var i = 0 ; i < nav.length ; i++){
     nav[i].addEventListener("mouseenter",(e)=>{
@@ -47,11 +46,11 @@ for (var i = 0 ; i < nav.length ; i++){
 
 function scrollIn(num){
     lowLag.play('static');
-    body.style.opacity = "0";
+    main.style.opacity = "0";
     overlaystatic.style.animation = "change 500ms ease";
-    body.style.animation = "scroll 1s ease";
+    main.style.animation = "scroll 1s ease";
     overlayBack.style.backgroundImage = "url("+backgrounds[num]+")";
-    setTimeout(() => { body.style.removeProperty('animation');}, 1100);
+    setTimeout(() => { main.style.removeProperty('animation');}, 1100);
     setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 600);
-    body.style.opacity = "1";
+    main.style.opacity = "1";
 }

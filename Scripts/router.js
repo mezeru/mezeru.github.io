@@ -38,9 +38,7 @@ import error from "../pages/error.js"
     routes.forEach((path,i) => {
       router.on(path.route,() => {
         render(path.page, main);
-          scrollIn(i);
-       
-        
+          scrollIn(i);  
       });
       
     });
