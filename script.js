@@ -26,7 +26,7 @@ const overlayBack = document.getElementById("overlay-background");
 const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
 
 const nav = document.getElementsByClassName("nav-item");
-const body = document.getElementById("body");
+const body = document.getElementById("main");
 
 
 for (var i = 0 ; i < nav.length ; i++){
@@ -44,8 +44,8 @@ for (var i = 0 ; i < nav.length ; i++){
 }
 
 
+
 function scrollIn(num){
-    //audio.play();
     lowLag.play('static');
     body.style.opacity = "0";
     overlaystatic.style.animation = "change 500ms ease";
