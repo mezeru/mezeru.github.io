@@ -10,7 +10,7 @@ import error from "../pages/error.js"
     const main = document.getElementById("main");
     const routes = [
       {
-        route: "/",
+        route: "/home",
         page: about()
       }
       ,
@@ -47,7 +47,7 @@ import error from "../pages/error.js"
       render(error,main);
   });
 
-    router.resolve();
+    router.navigate("home");
   });
 
 
