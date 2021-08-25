@@ -8,8 +8,7 @@ const about = () =>
         <p class="gliched-text">
             Hi! I'm <span class="gliched-move gliched-text">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
-                , a Full Stack Web developer and a software programmer. I create WEBSITES for fun and my passion is centering DIv's.
-
+                , a Full Stack Web developer and a software programmer. I create WEBSITES for fun and my passion is centering DIv's and love exploring frameworks.
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">

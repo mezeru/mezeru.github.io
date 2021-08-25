@@ -327,10 +327,10 @@ body::-webkit-scrollbar-thumb {
 
 @keyframes icon-flick {
   0%{
-    filter: drop-shadow(0px 0px 0px #ffffff)  blur(1px)  ;
+    filter: drop-shadow(0px 0px 0px #ffffff)  blur(2px)  ;
   }
   100%{
-    filter: drop-shadow(5px 0px 50px #Ffffff) blur(0px);
+    filter: drop-shadow(0px 0px 45px #Ffffff) blur(0px);
   }
 }
 
