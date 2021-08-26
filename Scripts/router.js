@@ -5,6 +5,8 @@ import projectsPage from "../pages/projects.js";
 import experiencePage from "../pages/experience.js";
 import {render} from 'https://unpkg.com/lit-html?module';
 import error from "../pages/error.js"
+import thankz from "../pages/thankyou.js"
+
   window.addEventListener("load",()=>{
     const router = new Navigo("/");
     const main = document.getElementById("main");
@@ -22,6 +24,11 @@ import error from "../pages/error.js"
       {
         route:"/projects",
         page: projectsPage()
+      }
+      ,
+      {
+        route:"thankz",
+        page: thankz()
       }
       ,
       {
@@ -47,7 +54,7 @@ import error from "../pages/error.js"
       render(error,main);
   });
 
-    router.navigate("home");
+    router.resolve();
   });
 
 
