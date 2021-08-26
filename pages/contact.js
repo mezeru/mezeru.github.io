@@ -21,7 +21,7 @@ const contact = () => {return html
                     <br>
                     <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" name="Message" required></textarea>
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="/thankz">
+                    <input type="hidden" name="_next" value="https://ruizo.is-a.dev/thankz">
                     <button class="submit">Submit</button>                   
                 </form>
             </div>
