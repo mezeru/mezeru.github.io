@@ -443,6 +443,7 @@ textarea::placeholder{
   column-gap: 5rem;
 }
 
+
 @media only screen and (max-width: 1300px) {
   .gliched-text{
     font-size: 1.7em;
@@ -504,6 +505,10 @@ textarea::placeholder{
 
   .navbar{
     font-size: 0.25rem;
+    ul{
+      flex-direction: column;
+      row-gap: 2em;
+    }
   }
 }
 
