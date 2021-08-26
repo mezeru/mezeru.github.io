@@ -643,7 +643,7 @@ textarea::placeholder {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 2em;
+    row-gap: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
