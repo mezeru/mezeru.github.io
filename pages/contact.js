@@ -10,7 +10,7 @@ const contact = () => {return html
                         <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
                     </span>
                 </div>
-                <form style="display: flex;align-items: center;justify-content: center; flex-direction: column;" action="https://formsubmit.co/jermpro0@gmail.com" method="POST">
+                <form style="display: flex;align-items: center;justify-content: center; flex-direction: column;" action="https://formsubmit.co/mezeru62@gmail.com" method="POST">
 
                     <div style="display: flex;justify-content: space-around ; flex-direction: row; width: 100%;">
                         <input type="text" style="width: 45%;"  id="fname" name="fname" placeholder="Your Name">
