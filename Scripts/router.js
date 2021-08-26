@@ -8,11 +8,11 @@ import error from "../pages/error.js"
 import thankz from "../pages/thankyou.js"
 
   window.addEventListener("load",()=>{
-    const router = new Navigo("/home");
+    const router = new Navigo("/");
     const main = document.getElementById("main");
     const routes = [
       {
-        route: "/home",
+        route: "/",
         page: about()
       }
       ,
@@ -27,11 +27,6 @@ import thankz from "../pages/thankyou.js"
       }
       ,
       {
-        route:"thankz",
-        page: thankz()
-      }
-      ,
-      {
         route:"social",
         page: socialPage()
       }
@@ -39,6 +34,10 @@ import thankz from "../pages/thankyou.js"
       {
         route:"contact",
         page: contactPage()
+      },
+      {
+        route:"thankz",
+        page: thankz()
       }
     ];
 
