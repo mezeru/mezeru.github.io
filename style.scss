@@ -486,6 +486,10 @@ textarea::placeholder{
       row-gap: 2em;
     }
   }
+
+  #cursor{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 580px) {

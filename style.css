@@ -619,6 +619,9 @@ textarea::placeholder {
         grid-template-rows: 1fr 1fr;
     row-gap: 2em;
   }
+  #cursor {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 580px) {
