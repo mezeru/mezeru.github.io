@@ -615,16 +615,28 @@ textarea::placeholder {
   body .container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  body .container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     row-gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .gliched-text {
+    font-size: 1em;
+  }
+  .gliched-move {
+    font-size: 1em;
+  }
+  .navbar {
+    font-size: 0.4em;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar {
+    font-size: 0.25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
