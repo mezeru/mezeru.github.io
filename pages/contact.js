@@ -2,9 +2,8 @@ import {html} from 'https://unpkg.com/lit-html?module';
 
 const contact = () => {return html 
 `
-
 <section class="child" id="contact">
-            <div style="display:grid; grid-template-columns: 1fr 1fr;column-gap: 5rem;" >
+            <div class="container">
                 <div style="display: flex;align-items: center;justify-content: center;" >
                     <span class="gliched-move gliched-text">
                         <a href="mailto: jermpro0@gmail.com" style="font-size: 2em;"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></a>
