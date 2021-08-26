@@ -8,7 +8,7 @@ import error from "../pages/error.js"
 import thankz from "../pages/thankyou.js"
 
   window.addEventListener("load",()=>{
-    const router = new Navigo("/");
+    const router = new Navigo("/home");
     const main = document.getElementById("main");
     const routes = [
       {
