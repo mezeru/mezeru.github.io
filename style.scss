@@ -508,10 +508,16 @@ textarea::placeholder{
 @media only screen and (max-width: 550px) {
 
   .navbar{
-    font-size: 0.25rem;
+    font-size: 0.4rem;
     ul{
       flex-direction: column;
       row-gap: 15px;
+      letter-spacing: 15px;
+      font-weight: bolder;
+      a::after{
+        bottom: -5px;
+        height: 1px;
+      }
     }
   }
 }

@@ -23,7 +23,7 @@ const icon = document.querySelector(".icon-hero");
 const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
 //const audio = document.getElementById("audio");
-const backgrounds = ["./assets/Home.jpg","./assets/Experience.png","./assets/Projects.jpg","./assets/Social.png","./assets/Contact.jpg"]
+const backgrounds = ["/Home.jpg","/Experience.png","/Projects.jpg","/Social.png","/Contact.jpg","/thnkz.png"]
 
 const nav = document.getElementsByClassName("nav-item");
 const main = document.getElementById("main");
@@ -49,7 +49,7 @@ function scrollIn(num){
     main.style.opacity = "0";
     overlaystatic.style.animation = "change 500ms ease";
     main.style.animation = "scroll 1s ease";
-    overlayBack.style.backgroundImage = "url("+backgrounds[num]+")";
+    overlayBack.style.backgroundImage = "url(./assets"+backgrounds[num]+")";
     setTimeout(() => { main.style.removeProperty('animation');}, 1100);
     setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 600);
     main.style.opacity = "1";
