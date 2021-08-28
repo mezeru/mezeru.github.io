@@ -39,6 +39,8 @@ for (var i = 0 ; i < nav.length ; i++){
         cursor.style.transform = "scale(1)";
         cursor.style.border = "solid 2px white";
         cursor.style.animation = "beat 1s infinite ease-in-out";
+        cursor.style.transform = "translate(-50%,-50%)";
+        
     })
 }
 

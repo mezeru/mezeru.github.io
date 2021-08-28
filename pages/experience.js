@@ -4,6 +4,14 @@ const experiment = () => {
     
     return html `
 
+    <ul id="pagination">
+        <li><a href="#page1"></a></li>
+        <li><a href="#page2"></a></li>
+        <li><a href="#page3"></a></li>
+        <li><a href="#page4"></a></li>
+        <li><a href="#page5"></a></li>
+    </ul>
+
 <section class="child" id="Exp One" >
         <span class="gliched-move gliched-text">
             <a style="font-size: 3em;"><span>Experience</span><span>Experience</span> <span>Experience</span></a>
