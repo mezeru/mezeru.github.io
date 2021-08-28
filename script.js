@@ -42,8 +42,6 @@ for (var i = 0 ; i < nav.length ; i++){
     })
 }
 
-
-
 function scrollIn(num){
     lowLag.play('static');
     main.style.opacity = "0";
@@ -54,3 +52,4 @@ function scrollIn(num){
     setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 600);
     main.style.opacity = "1";
 }
+

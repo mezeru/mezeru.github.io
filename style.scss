@@ -1,6 +1,5 @@
 html{
   scroll-snap-type: y mandatory;
-  overflow: hidden;
 }
 body{
   margin: 0px;
@@ -292,6 +291,7 @@ body::-webkit-scrollbar-thumb {
   z-index: 50;
   right: 0;
   background: linear-gradient(90deg, rgba(0,0,0,0.0)0% ,rgba(0,0,0,0.3) 100%);
+  pointer-events: none;
 }
 
 #overlay-left{
@@ -523,5 +523,9 @@ textarea::placeholder{
 }
 
 
-
+.exp-element{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4em;
+}
 
