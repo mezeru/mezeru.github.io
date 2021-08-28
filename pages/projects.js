@@ -4,7 +4,14 @@ const projects = () => {return html
 `
 <section class="child" id="proj">
             <span class="gliched-move gliched-text">
-                <a style="font-size: 2.5em;"><span>Projects</span><span>Projects</span> <span>Projects</span></span></a>
+                <a style="font-size: 2.5em;"><span>Projects</span><span>Projects</span> <span>Projects</span></a>
+            </span>
+
+            <div class="scroll">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </div>
 </section>
 `
 }
