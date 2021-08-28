@@ -46,7 +46,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 3em; text-transform:none"; >SenRa</a>
+            <a style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
         </span>
         
     </div>
@@ -64,7 +64,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; text-transform:none"; >Unschool</a>
+            <a style="font-size: 2.5em; text-transform:none"; >Unschool</a>
         </span>
         
     </div>
