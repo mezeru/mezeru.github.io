@@ -24,7 +24,7 @@ const experiment = () => {
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
+            <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
         </span>
         
     </div>
@@ -41,7 +41,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
+            <a href="https://senraco.com/" style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
         </span>
         
     </div>
@@ -59,7 +59,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2.5em; text-transform:none"; >Unschool</a>
+            <a href="https://www.unschool.in/" style="font-size: 2.5em; text-transform:none"; >Unschool</a>
         </span>
         
     </div>
@@ -77,7 +77,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; line-height:0em ;text-transform:none"; >
+            <a href="https://www.linkedin.com/company/validlog/?originalSubdomain=in" style="font-size: 2em; line-height:0em ;text-transform:none"; >
             Catosoft Technologies Private Limited</a>
         </span>
         
@@ -113,7 +113,7 @@ const experiment = () => {
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; text-transform:none"; >
+            <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >
             National Institute of Technology , Delhi </a>
         </span>
         
