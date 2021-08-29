@@ -7,14 +7,6 @@ import {render} from 'lit-html';
 import error from "../pages/error.js"
 import Navigo from 'navigo';
 import thankz from "../pages/thankyou.js";
-import "./lowLag.js"
-
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   lowLag.init({'urlPrefix':'./assets/'});
-//   lowLag.load(['static.mp3'],'static');
-// });
-
 import home from "../assets/Home.jpg"
 import Experience from "../assets/Experience.png"
 import Projects from "../assets/Projects.jpg"
@@ -26,11 +18,13 @@ import staticGif from "../assets/noise_try.gif"
 const backgrounds = [home,Experience,Projects,Social,Contact,thnkz];
 const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
+const audio = document.getElementById("audio");
 
 overlaystatic.style.background = "url("+staticGif+")";
 
+
 function scrollIn(num){
-  // lowLag.play('static');
+  audio.play();
   main.style.opacity = "0";
   overlaystatic.style.animation = "change 1s ease-in";
   main.style.animation = "scroll 1.5s ease-in";
