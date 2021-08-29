@@ -26,11 +26,11 @@ overlaystatic.style.background = "url("+staticGif+")";
 function scrollIn(num){
   audio.play();
   main.style.opacity = "0";
-  overlaystatic.style.animation = "change 1s ease-in";
+  overlaystatic.style.animation = "change 500ms ease-in";
   main.style.animation = "scroll 1.5s ease-in";
   overlayBack.style.backgroundImage = "url("+backgrounds[num]+")";
   setTimeout(() => { main.style.removeProperty('animation');}, 1550);
-  setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 1000);
+  setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 500);
   main.style.opacity = "1";
   window.scrollTo(0, 0);
 }

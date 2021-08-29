@@ -530,9 +530,9 @@ i{
   }
 }
 
-.scroll-element{
+.exp-element{
   display: grid;
-  grid-template-columns: 2fr 1fr 15fr 10fr;
+  grid-template-columns: 2fr 1fr 10fr 10fr;
   column-gap: 3em;
   padding: 0% 5%;
   .gliched-move{
@@ -541,7 +541,7 @@ i{
 }
 
 @media only screen and (max-width: 1550px){
-  .scroll-element{
+  .exp-element{
     .gliched-move{
       font-size: 1em;
     }
@@ -552,7 +552,7 @@ i{
 }
 
 @media only screen and (max-width: 1150px){
-  .scroll-element{
+  .exp-element{
     .time-point{
       display: none;
     }
@@ -561,7 +561,7 @@ i{
 }
 
 @media only screen and (max-width: 900px){
-  .scroll-element{
+  .exp-element{
     .info{
       display: none;
     }
@@ -571,11 +571,26 @@ i{
 
 
 @media only screen and (max-width: 800px){
-  .scroll-element{
+  .exp-element{
     grid-template-columns: 1fr;
     row-gap: 5em;
   }
 }
+
+.proj-element{
+  display: grid;
+  grid-template-columns: 5fr 5fr 10fr;
+  column-gap: 5em;
+  padding: 0% 5%;
+  .gliched-move a{
+    font-size: 3em;
+    text-transform: none;
+  }
+  .gliched-move{
+    margin: 15% 0;
+  }
+}
+
 
 $base: 0.6rem;
 
@@ -693,7 +708,7 @@ $base: 0.6rem;
     border-left: 5px solid rgba(255, 255, 255, 0.512);
     filter: blur(3px);
     box-shadow: 0px 0px 70px 0px white;
-    height: 40vh;
+    height: 50vh;
   }
 
 }
@@ -706,4 +721,38 @@ $base: 0.6rem;
   height: 15px;
   box-shadow: inset 0px 0px 8px 0px white;
   animation: timeline 1s infinite;
+}
+
+
+
+.line-point{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px white;
+  filter: blur(1px);
+
+  .line-bottom{
+    position: absolute;
+    align-self: flex-end;
+    border-left: 5px solid rgba(255, 255, 255, 0.512);
+    box-shadow: 0px 0px 70px 0px white;
+    filter: blur(3px);
+    height: 30vh;
+  }
+
+  .line-top{
+    position: relative;
+    align-self: flex-start;
+    border-left: 5px solid rgba(255, 255, 255, 0.512);
+    filter: blur(3px);
+    box-shadow: 0px 0px 70px 0px white;
+    height: 40vh;
+  }
+
 }

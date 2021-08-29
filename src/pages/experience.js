@@ -19,7 +19,7 @@ const experiment = () => {
         </div>
 </section>
 
-<section class="child scroll-element " data-aos="fade"  id="Two">
+<section class="child exp-element " data-aos="fade"  id="Two">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
@@ -36,7 +36,7 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child scroll-element " data-aos="fade" id="Three" >
+<section class="child exp-element " data-aos="fade" id="Three" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
@@ -54,7 +54,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child scroll-element " data-aos="fade" id="Four" >
+<section class="child exp-element " data-aos="fade" id="Four" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
@@ -72,7 +72,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child scroll-element " data-aos="fade"  id="Five" >
+<section class="child exp-element " data-aos="fade"  id="Five" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
@@ -90,7 +90,7 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child scroll-element " data-aos="fade"  id="Six">
+<section class="child exp-element " data-aos="fade"  id="Six">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
@@ -108,7 +108,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child scroll-element " data-aos="fade" id="Seven" >
+<section class="child exp-element " data-aos="fade" id="Seven" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex;">

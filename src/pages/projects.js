@@ -16,21 +16,54 @@ const projects = () => {return html
             </div>
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="Two">
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
-    <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
-        <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
-        </span>
-        
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
     </div>
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+            <span class="gliched-move gliched-text">
+                <a>Covi</a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    
+
     <div>
-        <p class="gliched-text">Research Intern</p>
         <p class="gliched-move gliched-text" style="font-size:1.5em">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
+
     </div>
+    
+</section>
+
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
+    </div>
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>Covi</a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    
+
+    <div>
+        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+        </p>
+
+    </div>
+    
 </section>
 
 ${
