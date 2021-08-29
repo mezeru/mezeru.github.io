@@ -1,6 +1,6 @@
 html{
-  scroll-snap-type: y mandatory;
-  scroll-behavior: auto;
+  scroll-snap-type: y;
+  overflow-y:scroll;
 }
 body{
   margin: 0px;
@@ -33,6 +33,7 @@ body{
   flex-direction: column;
   padding: 0% 10%;
   scroll-snap-align: start;
+  scroll-behavior: smooth;
 }
 
 @font-face {
