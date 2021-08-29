@@ -56,7 +56,7 @@ const experiment = () => {
 
 <section class="child exp-element " data-aos="fade" id="Four" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
-    <div class="time-point"><div class="line"></div></div>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2.5em; text-transform:none"; >Unschool</a>
@@ -74,7 +74,7 @@ const experiment = () => {
 
 <section class="child exp-element " data-aos="fade"  id="Five" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
-    <div class="time-point"><div class="line"></div></div>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; line-height:0em ;text-transform:none"; >
@@ -92,7 +92,7 @@ const experiment = () => {
 
 <section class="child exp-element " data-aos="fade"  id="Six">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
-    <div class="time-point"><div class="line"></div></div>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >P2L Impact Learning Empowers Pvt. Ltd.</a>
@@ -110,7 +110,7 @@ const experiment = () => {
 
 <section class="child exp-element " data-aos="fade" id="Seven" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
-    <div class="time-point"><div class="line-bottom"></div></div>
+    <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >
@@ -130,7 +130,7 @@ const experiment = () => {
     ${
         AOS.init({
             delay: 50, // values from 0 to 3000, with step 50ms
-            duration: 1000, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
             easing: 'ease-in-out',
             mirror:true
         })
