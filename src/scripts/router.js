@@ -56,16 +56,16 @@ function scrollIn(num){
       }
       ,
       {
-        route:"social",
+        route:"/social",
         page: socialPage()
       }
       ,
       {
-        route:"contact",
+        route:"/contact",
         page: contactPage()
       },
       {
-        route:"thankz",
+        route:"/thankz",
         page: thankz()
       }
     ];
