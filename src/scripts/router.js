@@ -21,10 +21,13 @@ import Projects from "../assets/Projects.jpg"
 import Social from "../assets/Social.png"
 import Contact from "../assets/Contact.jpg"
 import thnkz from "../assets/thnkz.png"
+import staticGif from "../assets/noise_try.gif" 
 
 const backgrounds = [home,Experience,Projects,Social,Contact,thnkz];
 const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
+
+overlaystatic.style.background = "url("+staticGif+")";
 
 function scrollIn(num){
   // lowLag.play('static');

@@ -1,3 +1,4 @@
+import iconUrl from "./assets/icon.png"
 
 const cursor = document.getElementById("cursor");
 document.addEventListener('mousemove',(e)=>{
@@ -15,7 +16,7 @@ const about = document.getElementById("about");
 const contact = document.getElementById("contact");
 const icon = document.querySelector(".icon-hero");
 
-
+icon.src = iconUrl;
 
 const nav = document.getElementsByClassName("nav-item");
 const main = document.getElementById("main");
