@@ -427,6 +427,10 @@ textarea::placeholder{
   text-align: center;
 }
 
+.social-item{
+  position: relative;
+}
+
 
 .social-item:hover{
   z-index: 10;
@@ -480,7 +484,7 @@ textarea::placeholder{
     .container{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
-      row-gap: 2em;
+      row-gap: 0em;
     }
   }
 
@@ -519,7 +523,7 @@ textarea::placeholder{
   }
 }
 
-.exp-element{
+.scroll-element{
   display: grid;
   grid-template-columns: 2fr 1fr 15fr 10fr;
   column-gap: 3em;
@@ -530,15 +534,18 @@ textarea::placeholder{
 }
 
 @media only screen and (max-width: 1550px){
-  .exp-element{
+  .scroll-element{
     .gliched-move{
       font-size: 1em;
     }
+    justify-items: center;
+    align-content: center;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 1150px){
-  .exp-element{
+  .scroll-element{
     .time-point{
       display: none;
     }
@@ -547,7 +554,7 @@ textarea::placeholder{
 }
 
 @media only screen and (max-width: 900px){
-  .exp-element{
+  .scroll-element{
     .info{
       display: none;
     }
@@ -557,12 +564,9 @@ textarea::placeholder{
 
 
 @media only screen and (max-width: 800px){
-  .exp-element{
+  .scroll-element{
     grid-template-columns: 1fr;
     row-gap: 5em;
-    justify-items: center;
-    align-content: center;
-    text-align: center;
   }
 }
 

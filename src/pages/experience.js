@@ -19,10 +19,10 @@ const experiment = () => {
         </div>
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="Two">
+<section class="child scroll-element " data-aos="fade"  id="Two">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
         </span>
@@ -36,10 +36,10 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element " data-aos="fade" id="Three" >
+<section class="child scroll-element " data-aos="fade" id="Three" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
         </span>
@@ -54,10 +54,10 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element " data-aos="fade" id="Four" >
+<section class="child scroll-element " data-aos="fade" id="Four" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2.5em; text-transform:none"; >Unschool</a>
         </span>
@@ -72,10 +72,10 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="Five" >
+<section class="child scroll-element " data-aos="fade"  id="Five" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; line-height:0em ;text-transform:none"; >
             Catosoft Technologies Private Limited</a>
@@ -90,10 +90,10 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="Six">
+<section class="child scroll-element " data-aos="fade"  id="Six">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >P2L Impact Learning Empowers Pvt. Ltd.</a>
         </span>
@@ -108,10 +108,10 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element " data-aos="fade" id="Seven" >
+<section class="child scroll-element " data-aos="fade" id="Seven" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
-    <div style="display:flex; flex-direction:column;">
+    <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >
             National Institute of Technology , Delhi </a>

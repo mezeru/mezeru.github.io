@@ -32,6 +32,7 @@ function scrollIn(num){
   setTimeout(() => { main.style.removeProperty('animation');}, 1550);
   setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 1000);
   main.style.opacity = "1";
+  window.scrollTo(0, 0);
 }
 
 
