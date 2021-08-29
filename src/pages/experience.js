@@ -30,7 +30,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text">Research Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>
@@ -47,7 +47,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text">Full Stack Developer Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>
@@ -65,7 +65,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text">B2B Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em" >        
+        <p class="gliched-move gliched-text info" >        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>
@@ -84,7 +84,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text" >Python & React Developer Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>
@@ -101,7 +101,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text">Unity Developer Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>
@@ -120,7 +120,7 @@ const experiment = () => {
     </div>
     <div>
         <p class="gliched-text">Python Developer Intern</p>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
     </div>

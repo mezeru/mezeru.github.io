@@ -528,7 +528,42 @@ textarea::placeholder{
   }
 }
 
+@media only screen and (max-width: 1550px){
+  .exp-element{
+    .gliched-move{
+      font-size: 1em;
+    }
+  }
+}
 
+@media only screen and (max-width: 1150px){
+  .exp-element{
+    .time-point{
+      display: none;
+    }
+    grid-template-columns: 1fr 5fr 5fr;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .exp-element{
+    .info{
+      display: none;
+    }
+    grid-template-columns: 1fr 10fr 5fr;
+  }
+}
+
+
+@media only screen and (max-width: 800px){
+  .exp-element{
+    grid-template-columns: 1fr;
+    row-gap: 5em;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+  }
+}
 
 $base: 0.6rem;
 
