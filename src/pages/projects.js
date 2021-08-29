@@ -18,9 +18,7 @@ const projects = () => {return html
 
 <section class="child proj-element " data-aos="fade"  id="Two">
 
-    <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
-    </div>
+    
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
             <span class="gliched-move gliched-text">
@@ -29,7 +27,9 @@ const projects = () => {return html
         <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
     </div>
 
-    
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
+    </div>
 
     <div>
         <p class="gliched-move gliched-text" style="font-size:1.5em">        
@@ -43,25 +43,26 @@ const projects = () => {return html
 
 <section class="child proj-element " data-aos="fade"  id="Two">
 
-    <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
-    </div>
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
             <span class="gliched-move gliched-text">
-                <a>Covi</a>
+                <a>Parkade
+                </a>
             </span>   
         <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
     </div>
 
-    
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">python</p>
+    </div>
 
     <div>
         <p class="gliched-move gliched-text" style="font-size:1.5em">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+        Course Project for Data Mining
+        Parkage is a License Plate Detector for a Parking Lot.
+        Fare Calculator for the vehicle while exitin
         </p>
-
     </div>
     
 </section>
