@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build script.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
     "url": "https://github.com/mezeru/mezeru.github.io/issues"
   },
   "homepage": "https://github.com/mezeru/mezeru.github.io#readme",
-  "dependencies": {}
+  "dependencies": {
+    "docslider": "^3.0.1",
+    "lit-html": "^1.4.1",
+    "navigo": "^8.11.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }

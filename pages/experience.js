@@ -1,4 +1,4 @@
-import {html} from 'https://unpkg.com/lit-html?module';
+import {html} from "lit-html";  
 
 const experiment = () => {
     
@@ -24,7 +24,7 @@ const experiment = () => {
         </div>
 </section>
 
-<section class="child exp-element" id="Two">
+<section class="child exp-element" data-aos="fade-up"  id="Two">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
     <div class="time-point"><div class="line-top"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -41,7 +41,7 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element" id="Three" >
+<section class="child exp-element" data-aos="fade-up" id="Three" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -59,7 +59,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element" id="Four" >
+<section class="child exp-element" data-aos="fade-up" id="Four" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -77,7 +77,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element"  id="Five" >
+<section class="child exp-element" data-aos="fade-up"  id="Five" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -95,7 +95,7 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element"  id="Six">
+<section class="child exp-element" data-aos="fade-up"  id="Six">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -113,7 +113,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element" id="Seven" >
+<section class="child exp-element" data-aos="fade-up" id="Seven" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line-bottom"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -130,7 +130,8 @@ const experiment = () => {
         </p>
     </div>
 
-</section>
+    </section>
+
 
 `
 }

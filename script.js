@@ -1,3 +1,4 @@
+
 const cursor = document.getElementById("cursor");
 document.addEventListener('mousemove',(e)=>{
     var x = e.clientX;
@@ -5,12 +6,6 @@ document.addEventListener('mousemove',(e)=>{
     cursor.style.left = x+"px";
     cursor.style.top = y+"px";
 });
-
-$(document).ready(()=>{
-    lowLag.init({'urlPrefix':'./assets/'});
-    lowLag.load(['static.mp3'],'static');
-})
-
 
 
 const exp = document.getElementById("Exp");
@@ -20,10 +15,7 @@ const about = document.getElementById("about");
 const contact = document.getElementById("contact");
 const icon = document.querySelector(".icon-hero");
 
-const overlaystatic = document.getElementById("overlay-back");
-const overlayBack = document.getElementById("overlay-background");
-//const audio = document.getElementById("audio");
-const backgrounds = ["/Home.jpg","/Experience.png","/Projects.jpg","/Social.png","/Contact.jpg","/thnkz.png"]
+
 
 const nav = document.getElementsByClassName("nav-item");
 const main = document.getElementById("main");
@@ -44,14 +36,5 @@ for (var i = 0 ; i < nav.length ; i++){
     })
 }
 
-function scrollIn(num){
-    lowLag.play('static');
-    main.style.opacity = "0";
-    overlaystatic.style.animation = "change 500ms ease";
-    main.style.animation = "scroll 1s ease";
-    overlayBack.style.backgroundImage = "url(./assets"+backgrounds[num]+")";
-    setTimeout(() => { main.style.removeProperty('animation');}, 1100);
-    setTimeout(() => { overlaystatic.style.removeProperty('animation');}, 600);
-    main.style.opacity = "1";
-}
+
 
