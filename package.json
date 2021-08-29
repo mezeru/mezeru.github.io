@@ -11,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/mezeru/mezeru.github.io.git"
   },
-  "author": "",
+  "author": "Yash",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mezeru/mezeru.github.io/issues"
   },
   "homepage": "https://github.com/mezeru/mezeru.github.io#readme",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "docslider": "^3.0.1",
     "lit-html": "^1.4.1",
     "navigo": "^8.11.1"

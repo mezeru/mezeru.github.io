@@ -1,16 +1,11 @@
-import {html} from "lit-html";  
+import {html} from "lit-html";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const experiment = () => {
     
     return html `
-
-    <ul id="pagination">
-        <li><a href="#page1"></a></li>
-        <li><a href="#page2"></a></li>
-        <li><a href="#page3"></a></li>
-        <li><a href="#page4"></a></li>
-        <li><a href="#page5"></a></li>
-    </ul>
 
 <section class="child" id="Exp One" >
         <span class="gliched-move gliched-text">
@@ -24,9 +19,9 @@ const experiment = () => {
         </div>
 </section>
 
-<section class="child exp-element" data-aos="fade-up"  id="Two">
+<section class="child exp-element " data-aos="fade"  id="Two">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
-    <div class="time-point"><div class="line-top"></div></div>
+    <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
@@ -41,9 +36,9 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element" data-aos="fade-up" id="Three" >
+<section class="child exp-element " data-aos="fade" id="Three" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
-    <div class="time-point"><div class="line"></div></div>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex; flex-direction:column;">
         <span class="gliched-move gliched-text">
             <a style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
@@ -59,7 +54,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element" data-aos="fade-up" id="Four" >
+<section class="child exp-element " data-aos="fade" id="Four" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -77,7 +72,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element" data-aos="fade-up"  id="Five" >
+<section class="child exp-element " data-aos="fade"  id="Five" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -95,7 +90,7 @@ const experiment = () => {
     </div>
 </section>
 
-<section class="child exp-element" data-aos="fade-up"  id="Six">
+<section class="child exp-element " data-aos="fade"  id="Six">
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -113,7 +108,7 @@ const experiment = () => {
 
 </section>
 
-<section class="child exp-element" data-aos="fade-up" id="Seven" >
+<section class="child exp-element " data-aos="fade" id="Seven" >
     <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
     <div class="time-point"><div class="line-bottom"></div></div>
     <div style="display:flex; flex-direction:column;">
@@ -132,6 +127,14 @@ const experiment = () => {
 
     </section>
 
+    ${
+        AOS.init({
+            delay: 50, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease-in-out',
+            mirror:true
+        })
+    }
 
 `
 }

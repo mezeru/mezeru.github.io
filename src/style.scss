@@ -1,5 +1,5 @@
 html{
-  scroll-snap-type: y;
+  scroll-snap-type: y mandatory;
   overflow-y:scroll;
 }
 body{
@@ -33,7 +33,6 @@ body{
   flex-direction: column;
   padding: 0% 10%;
   scroll-snap-align: start;
-  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -602,14 +601,13 @@ $base: 0.6rem;
 
 @keyframes timeline {
 0%{
-  border-radius: 5px 5px 5px 5px;
+  box-shadow: inset 0px 0px 5px 0px white;
 }
 50%{
-  border-radius: 50%;
+  box-shadow: inset 0px 0px 10px 0px white;
 }
-
 100%{
-  border-radius: 5px 5px 5px 5px;
+  box-shadow: inset 0px 0px 5px 0px white;
 }
 
 }
@@ -621,10 +619,10 @@ $base: 0.6rem;
   justify-content: center;
   width: 25px;
   height: 25px;
+  border-radius: 50%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px 0px white;
   filter: blur(1px);
-  animation: timeline 1s infinite;
 
   .line{
     position: relative;
@@ -655,42 +653,12 @@ $base: 0.6rem;
 
 }
 
-#pagination{
-  position: fixed;
-  top: 40%;
-  list-style: none;
-  right: 30px;
-  z-index: 10;
-  li {
-    position: relative;
-    margin: 20px 0;
-    background: #fff;
-    border-radius: 100%;
-    width: 12px;
-    height: 12px;
-    transition: all .2s ease;
-    
-    &:hover {
-      transform: scale(1.5);
-    }
-  }
-
-  a {
-    position: absolute;
-    text-decoration: none;  
-    left: 0;
-    top: 0;
-    color: inherit;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.fade-in{
-  opacity: 0;
-  transition: all 1s ease-in;
-}
-
-.fade-in.appear{
-  opacity: 1;
+.mid-point{
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  box-shadow: inset 0px 0px 8px 0px white;
+  animation: timeline 1s infinite;
 }
