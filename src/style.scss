@@ -523,6 +523,7 @@ textarea::placeholder{
   display: grid;
   grid-template-columns: 2fr 1fr 15fr 10fr;
   column-gap: 3em;
+  padding: 0% 5%;
   .gliched-move{
     font-size: 1.5em;
   }
