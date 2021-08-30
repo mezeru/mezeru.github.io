@@ -28,7 +28,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
     </div>
 
     <div>
@@ -54,7 +54,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">python</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">python</p>
     </div>
 
     <div>
@@ -80,7 +80,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">python</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em;">python</p>
     </div>
 
     <div>
@@ -107,7 +107,11 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">python</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">HTML
+        SCSS
+        NodeJs
+        JavaScript
+        </p>
     </div>
 
     <div>
@@ -125,7 +129,7 @@ const projects = () => {return html
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
-            <span class="gliched-move gliched-text">
+            <span class="gliched-move gliched-text" style="font-size:1.5em">
                 <a>
                 Unity Game Projects
                 </a>
@@ -134,7 +138,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">Unity-Engine C#</p>
     </div>
 
     <div>
@@ -160,20 +164,22 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">ElectronJs
+        HTML
+        SCSS
+        Bulma
+        </p>
     </div>
 
     <div>
         <p class="gliched-move gliched-text info">
-        A Repo of Miniature Games made using Unity Engine
-
+        A Destop native screen recording app using ElectronJs
         </p>
     </div>
     
 </section>
 
 <section class="child proj-element " data-aos="fade"  id="Two">
-
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
@@ -186,13 +192,16 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">Flask
+        HTML
+        SCSS
+        Javascript
+        Python</p>
     </div>
 
     <div>
         <p class="gliched-move gliched-text info">
-        A Repo of Miniature Games made using Unity Engine
-
+            A blogging website made using Flask and Javascript
         </p>
     </div>
     
@@ -211,7 +220,14 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">HTML
+        SCSS
+        JavaScript
+        Parcel-Bundler
+        React
+        NodeJs
+        MongoDB
+        </p>
     </div>
 
     <div>
