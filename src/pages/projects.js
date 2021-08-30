@@ -129,7 +129,7 @@ const projects = () => {return html
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
-            <span class="gliched-move gliched-text" style="font-size:1.5em">
+            <span class="gliched-move gliched-text" style="font-size:1em">
                 <a>
                 Unity Game Projects
                 </a>

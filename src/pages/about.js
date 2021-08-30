@@ -4,9 +4,9 @@ const about = () =>
 {
     return html
     `
-    <section class="child" id="about">
+    <section class="child" id="about" style="align-items:normal">
         <p class="gliched-text">
-            Hi! I'm <span class="gliched-move gliched-text">
+            Hi! I'm <span class="gliched-move gliched-text" style="text-align:left">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
                 , a Full Stack Web developer and a software programmer.
         </p>
