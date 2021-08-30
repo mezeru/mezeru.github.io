@@ -243,8 +243,8 @@ const projects = () => {return html
 ${
     AOS.init({
         delay: 50, // values from 0 to 3000, with step 50ms
-        duration: 500, // values from 0 to 3000, with step 50ms
-        easing: 'ease-in-out',
+        duration: 800, // values from 0 to 3000, with step 50ms
+        easing: 'ease-in',
         mirror:true
     })
 }
