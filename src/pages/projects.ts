@@ -28,7 +28,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">ReactJs SCSS Typescript MongoDB (Vite)</p>
+        <p class="gliched-text lang">ReactJs SCSS Typescript MongoDB (Vite)</p>
     </div>
 
     <div>
@@ -54,7 +54,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">python</p>
+        <p class="gliched-text lang">python</p>
     </div>
 
     <div>
@@ -107,7 +107,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">HTML
+        <p class="gliched-text lang">HTML
         SCSS
         NodeJs
         JavaScript
@@ -138,7 +138,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">Unity-Engine C#</p>
+        <p class="gliched-text lang">Unity-Engine C#</p>
     </div>
 
     <div>
@@ -164,7 +164,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">ElectronJs
+        <p class="gliched-text lang">ElectronJs
         HTML
         SCSS
         Bulma
@@ -192,7 +192,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">Flask
+        <p class="gliched-text lang">Flask
         HTML
         SCSS
         Javascript
@@ -220,11 +220,11 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">HTML
+        <p class="gliched-text lang">
+        React
         SCSS
         JavaScript
-        Parcel-Bundler
-        React
+        Parcel
         NodeJs
         MongoDB
         </p>

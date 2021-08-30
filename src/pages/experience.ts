@@ -20,7 +20,7 @@ const experiment = () => {
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Two">
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p>
+    <p style="color:white; font-family: 'Pixel', sans-serif;">Jun 2021 - Aug 2021</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -31,13 +31,13 @@ const experiment = () => {
     <div>
         <p class="gliched-text">Research Intern</p>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+       
         </p>
     </div>
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Three" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
+    <p style="color:white; font-family: 'Pixel', sans-serif;">May 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -48,14 +48,16 @@ const experiment = () => {
     <div>
         <p class="gliched-text">Full Stack Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+        Learned AngularJs and Developed pages for SenRaco's Website using AngularJs
+        Resolved bugs and added features to SenRa's IOT Application (Ginjer) with AngularJs and GraphQL
+         
         </p>
     </div>
 
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Four" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
+    <p style="color:white; font-family: 'Pixel', sans-serif;">Mar 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -66,14 +68,16 @@ const experiment = () => {
     <div>
         <p class="gliched-text">B2B Intern</p>
         <p class="gliched-move gliched-text info" >        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+        Researched Market to identify the target market for the products
+        and Promoted Marketing of Unschool products through various marketing channels.
+        Was tasked with Interviewing and recruiting potential Interns
         </p>
     </div>
 
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Five" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
+    <p style="color:white; font-family: 'Pixel', sans-serif;">Apr 2021 – May 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -85,13 +89,13 @@ const experiment = () => {
     <div>
         <p class="gliched-text" >Python & React Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+        Worked on a real time facial recognition system providing real time KYC also worked as a React Developer for a brief time.    
         </p>
     </div>
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Six">
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
+    <p style="color:white; font-family: 'Pixel', sans-serif;">Feb 2021 – Apr 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -102,14 +106,14 @@ const experiment = () => {
     <div>
         <p class="gliched-text">Unity Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+            Worked on Unity Engine and also on Blender3D to create low poly 3D models of everyday items. I got practical exposure of C# programming in Unity Engine.
         </p>
     </div>
 
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Seven" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">June 2021 - Aug 2021</p> 
+    <p style="color:white; font-family: 'Pixel', sans-serif;">May 2020 – Oct 2020</p> 
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -121,7 +125,7 @@ const experiment = () => {
     <div>
         <p class="gliched-text">Python Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+            Worked on Intelligent Study Material Download Program under the supervision of Dr. Rajya Lakshmi            
         </p>
     </div>
 
