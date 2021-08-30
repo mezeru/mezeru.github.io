@@ -582,7 +582,7 @@ i{
 @media only screen and (max-width: 800px){
   .exp-element{
     grid-template-columns: 1fr;
-    row-gap: 5em;
+    row-gap: 2em;
   }
 }
 
@@ -619,6 +619,10 @@ i{
   .proj-element{
     .gliched-text p{
       word-spacing: normal;
+    }
+    .lang{
+      margin: 1%;
+      font-size: 1em;
     }
     .info{
       font-size: 1em;
@@ -705,13 +709,16 @@ $base: 0.6rem;
 
 @keyframes timeline {
 0%{
-  box-shadow: inset 0px 0px 5px 0px white;
+  box-shadow: inset 0px 0px 0px 0px white;
+  opacity: 0;
 }
 50%{
-  box-shadow: inset 0px 0px 10px 0px white;
+  box-shadow: inset 0px 0px 15px 0px white;
+  opacity: 1;
 }
 100%{
-  box-shadow: inset 0px 0px 5px 0px white;
+  box-shadow: inset 0px 0px 0px 0px white;
+  opacity: 0;
 }
 
 }
@@ -805,6 +812,17 @@ $base: 0.6rem;
   .gliched-text{
     font-size: 1em;
   }
+  .gliched-move{
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 400px){
+
+  .gliched-text{
+    font-size: 0.9em;
+  }
+
   .gliched-move{
     font-size: 1em;
   }

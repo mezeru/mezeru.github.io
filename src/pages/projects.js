@@ -28,7 +28,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">ReactJs SCSS Typescript MongoDB (Vite)</p>
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">ReactJs SCSS Typescript MongoDB (Vite)</p>
     </div>
 
     <div>
@@ -54,7 +54,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">python</p>
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">python</p>
     </div>
 
     <div>
@@ -80,7 +80,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em;">python</p>
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;;">python</p>
     </div>
 
     <div>
@@ -107,7 +107,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">HTML
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">HTML
         SCSS
         NodeJs
         JavaScript
@@ -138,7 +138,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">Unity-Engine C#</p>
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">Unity-Engine C#</p>
     </div>
 
     <div>
@@ -164,7 +164,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">ElectronJs
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">ElectronJs
         HTML
         SCSS
         Bulma
@@ -192,7 +192,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">Flask
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">Flask
         HTML
         SCSS
         Javascript
@@ -220,7 +220,7 @@ const projects = () => {return html
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text" style="word-spacing:20em;text-align:center;font-size:1.5em">HTML
+        <p class="gliched-text lang" style="word-spacing:20em;text-align:center;">HTML
         SCSS
         JavaScript
         Parcel-Bundler
