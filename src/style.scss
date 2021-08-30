@@ -588,9 +588,39 @@ i{
   }
   .gliched-move{
     margin: 15% 0;
+    text-align: center;
+  }
+  .info{
+    font-size: 1.5em;
   }
 }
 
+@media only screen and (max-width: 1550px){
+  .proj-element{
+    .gliched-move{
+      font-size: 1em;
+    }
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .proj-element{
+    p .info{
+      font-size: 1em;
+    }
+    .gliched-move{
+      margin: 0;
+    }
+    .line-point{
+      display:none;
+    }
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+  }
+}
 
 $base: 0.6rem;
 

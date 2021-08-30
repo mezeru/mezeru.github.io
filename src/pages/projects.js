@@ -32,7 +32,7 @@ const projects = () => {return html
     </div>
 
     <div>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
         </p>
 
@@ -58,7 +58,7 @@ const projects = () => {return html
     </div>
 
     <div>
-        <p class="gliched-move gliched-text" style="font-size:1.5em">        
+        <p class="gliched-move gliched-text info">        
         Course Project for Data Mining
         Parkage is a License Plate Detector for a Parking Lot.
         Fare Calculator for the vehicle while exitin
@@ -66,6 +66,163 @@ const projects = () => {return html
     </div>
     
 </section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a style="font-size:1.5em">Intelligent Study Material Download Program
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">python</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        Web-Scraper that download all files from a given website
+        Segregating of different types of files
+        Displaying Top Five PDF files relevant to a phrase entered by the user
+        Displaying phrases related to the one entered by the user
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>X-n-O
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">python</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        Course Project for Network Programming
+        An Online Multiplayer Tic-Tac-Toe Game (using Sockets)
+        Supports Cross Platform
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>
+                Unity Game Projects
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        A Repo of Miniature Games made using Unity Engine
+
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>
+                Cut It
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        A Repo of Miniature Games made using Unity Engine
+
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>
+                Bloggin
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        A Repo of Miniature Games made using Unity Engine
+
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
+
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>
+                Postoff
+                </a>
+            </span>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text" style="font-size:1.5em">Unity-Engine C#</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+        A Repo of Miniature Games made using Unity Engine
+
+        </p>
+    </div>
+    
+</section>
+
 
 ${
     AOS.init({
