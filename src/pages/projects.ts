@@ -209,6 +209,33 @@ const projects = () => {return html
 
 <section class="child proj-element " data-aos="fade"  id="Two">
 
+    <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
+        <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
+            <span class="gliched-move gliched-text">
+                <a>
+                2048
+                </a>
+            </span>   
+        <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <p class="gliched-text lang">
+        HTML
+        SCSS
+        TypeScript</p>
+    </div>
+
+    <div>
+        <p class="gliched-move gliched-text info">
+            A clone 2048 Game made using TypeScript.The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048
+        </p>
+    </div>
+    
+</section>
+
+<section class="child proj-element " data-aos="fade"  id="Two">
+
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   

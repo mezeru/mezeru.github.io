@@ -103,7 +103,7 @@ const experiment = () => {
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a style="font-size: 2em; text-transform:none"; >P2L Impact Learning Empowers Pvt. Ltd.</a>
+            <a href="https://www.power2create.in/" style="font-size: 2em; text-transform:none"; >P2L Impact Learning Empowers Pvt. Ltd.</a>
         </span>
         
     </div>

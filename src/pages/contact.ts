@@ -1,4 +1,43 @@
 import {html} from 'lit-html';
+import{ init, send } from "emailjs-com";
+
+init("user_skqmAHaUypslAcztpKImL");
+
+const sendEmail = async (e) => {
+
+    e.preventDefault();
+    let aok = true;
+
+    let FD = new FormData(document.getElementById("form") as HTMLFormElement);
+    let params = {
+        name: FD.get('name'),
+        email: FD.get('email'),
+        subject: FD.get('subject'),
+        message: FD.get('message'),
+    }
+
+    for ( let i in params ){
+        if (params[i].trim() == "") {
+            //alert
+            aok = false;
+        }
+    }
+    
+    if(aok){
+
+        try{
+            const res = await send('Gmail-portfo',"Ruizo-portfo",params);
+            console.log(res);
+            
+        }
+        catch{
+            console.log("No");
+        }
+
+    }
+    
+    
+}
 
 const contact = () => {return html 
 `
@@ -10,17 +49,17 @@ const contact = () => {return html
                         <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
                     </span>
                 </div>
-                <form style="display: flex;align-items: center;justify-content: center; flex-direction: column;">
+                <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;">
 
-                    <div style="display: flex;justify-content: space-around ; flex-direction: row; width: 100%;">
-                        <input type="text" style="width: 45%;"  id="fname" name="fname" placeholder="Your Name">
-                        <input type="email" style="width: 45%;"  id="email" name="email" placeholder="Your Email Address">
+                    <div style="display: flex;justify-content: space-between ; flex-direction: row; width: 100%;">
+                        <input type="text" style="width: 40%;" required id="name" name="name" placeholder="Your Name">
+                        <input type="email" style="width: 40%;" required  id="email" name="email" placeholder="Email Address">
                     </div>
                     <br>
-                    <input type="text" id="Subject" style="width: 100%;" cols="50" name="Subject" placeholder="Subject">
+                    <input type="text" id="subject" required style="width: 50%;" cols="50" name="subject" placeholder="Subject">
                     <br>
-                    <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" name="Message" required></textarea>
-                    <button class="submit">Submit</button>                   
+                    <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" id="message" name="message" required></textarea>
+                    <a type="submit" class="submit" @click=${sendEmail}>Submit</a>                   
                 </form>
             </div>
             
