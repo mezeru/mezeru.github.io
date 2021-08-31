@@ -73,11 +73,16 @@ const experiment = () => {
         
     </div>
     <div>
-        <p class="gliched-text">B2B Intern</p>
+        <p class="gliched-text">Business development intern</p>
         <p class="gliched-move gliched-text info" >        
-        Researched Market to identify new development channels, target market for Unschool products and Selling products or services to those clients..
-        Promoted Unschool and Unschool products through various marketing channels.
-        Was tasked with Interviewing and recruiting potential Interns.
+            Researched Market to identify new development channels, target market for Unschool products and Selling products or services to those clients.
+            Promoted Unschool and Unschool products through various marketing channels.
+        </p>
+        <p class="gliched-move gliched-text info" >
+            Promoted ideas for Sustained revenue growth and efficient marketing based on current sales.
+            Was tasked with Interviewing and recruiting potential Interns.
+        </p>
+        
         </p>
     </div>
 
@@ -94,13 +99,14 @@ const experiment = () => {
         
     </div>
     <div>
-        <p class="gliched-text" >Python & React Developer Intern</p>
+        <p class="gliched-text" >Python Developer Intern</p>
         <p class="gliched-move gliched-text info">        
         Worked on a real time facial recognition system providing real time KYC. 
         Used OpenCV to extract face from adhaard card and interview video then Machine Learning model Trained using the frames extracted from the interview video to find if the faces matched.
         </p>
         <p class="gliched-move gliched-text info">
-        Verfied the authenticity of Summited aadharcard image with the help of offline e-KYC Xml library of pyaadhar. Worked briefly on the front end of the website using ReactJs
+        Verfied the authenticity of Summited aadharcard image with the help of offline e-KYC Xml library of pyaadhar. 
+        Worked briefly on the front end part of the project with ReactJs and parcel
         </p>
     </div>
 </section>
