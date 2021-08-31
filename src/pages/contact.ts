@@ -1,6 +1,8 @@
 import {html} from 'lit-html';
 import{ init, send } from "emailjs-com";
 
+
+
 init("user_skqmAHaUypslAcztpKImL");
 
 const sendEmail = async (e) => {
@@ -18,8 +20,9 @@ const sendEmail = async (e) => {
 
     for ( let i in params ){
         if (params[i].trim() == "") {
-            //alert
             aok = false;
+            document.querySelector(".alert").style.display = "block";
+            break;
         }
     }
     
@@ -27,7 +30,7 @@ const sendEmail = async (e) => {
 
         try{
             const res = await send('Gmail-portfo',"Ruizo-portfo",params);
-            console.log(res);
+            alert
             
         }
         catch{
@@ -41,6 +44,7 @@ const sendEmail = async (e) => {
 
 const contact = () => {return html 
 `
+
 <section class="child" id="contact">
             <div class="container">
                 <div style="display: flex;align-items: center;justify-content: center;" >
@@ -49,8 +53,11 @@ const contact = () => {return html
                         <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
                     </span>
                 </div>
-                <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;">
-
+                <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;position:relative">
+                    <div class="alert">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                        <strong><i class="fas fa-exclamation-triangle"></i>Please fill all the fields before proceeding</strong> 
+                    </div>
                     <div style="display: flex;justify-content: space-between ; flex-direction: row; width: 100%;">
                         <input type="text" style="width: 40%;" required id="name" name="name" placeholder="Your Name">
                         <input type="email" style="width: 40%;" required  id="email" name="email" placeholder="Email Address">
