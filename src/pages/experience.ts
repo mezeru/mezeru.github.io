@@ -20,24 +20,28 @@ const experiment = () => {
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Two">
-    <p style="color:white; font-family: 'Pixel', sans-serif;">Jun 2021 - Aug 2021</p>
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jun 2021 - Aug 2021</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
-            <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >National Institute of Technology , Delhi</a>
+            <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >National Institute of Technology Delhi</a>
         </span>
         
     </div>
     <div>
         <p class="gliched-text">Research Intern</p>
         <p class="gliched-move gliched-text info">        
-       
+        Conducted research on Interoperability in Healthcare and worked on Electronic Health Record Arcehtypes, Archetype Designer, Ehrbase and Med Blocks UI. 
+        <p class="gliched-move gliched-text info">
+        Developed an interoperable system for Covid 19 following OpenEHR standard and prepared a data set for finding correlations between symptoms and the physique of a patient by implementing machine learning techniques.
+        </p>
+
         </p>
     </div>
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Three" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">May 2021 – Jun 2021</p> 
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">May 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -48,16 +52,16 @@ const experiment = () => {
     <div>
         <p class="gliched-text">Full Stack Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-        Learned AngularJs and Developed pages for SenRaco's Website using AngularJs
-        Resolved bugs and added features to SenRa's IOT Application (Ginjer) with AngularJs and GraphQL
-         
+        Learned AngularJs and Developed web components for SenRaco's Website using AngularJs.
+        Resolved bugs and added features to SenRa's IoT Analytics Platform, Ginjer.
+                 
         </p>
     </div>
 
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Four" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">Mar 2021 – Jun 2021</p> 
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Mar 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -77,7 +81,7 @@ const experiment = () => {
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Five" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">Apr 2021 – May 2021</p> 
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Apr 2021 – May 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -95,7 +99,7 @@ const experiment = () => {
 </section>
 
 <section class="child exp-element " data-aos="fade"  id="Six">
-    <p style="color:white; font-family: 'Pixel', sans-serif;">Feb 2021 – Apr 2021</p> 
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Feb 2021 – Apr 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
@@ -113,12 +117,12 @@ const experiment = () => {
 </section>
 
 <section class="child exp-element " data-aos="fade" id="Seven" >
-    <p style="color:white; font-family: 'Pixel', sans-serif;">May 2020 – Oct 2020</p> 
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">May 2020 – Oct 2020</p> 
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >
-            National Institute of Technology , Delhi </a>
+            National Institute of Technology Delhi </a>
         </span>
         
     </div>
