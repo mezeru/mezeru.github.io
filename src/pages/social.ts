@@ -10,7 +10,7 @@ const social = () => {return html `
                 <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
                     <span class="gliched-move gliched-text">
                         <a style="font-size: 2em;"><span>social</span><span>social</span> <span>social</span></a>
-                        <p style="font-size: 1.5rem;line-height: 25px;">Get in Touch with me</p>
+                        <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Get in Touch with me xD</p>
                     </span>
                     
                 </div>

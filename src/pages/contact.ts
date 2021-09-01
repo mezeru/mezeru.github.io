@@ -51,14 +51,15 @@ const contact = () => {return html
                 <div style="display: flex;align-items: center;justify-content: center;" >
                     <span class="gliched-move gliched-text">
                         <a href="mailto: jermpro0@gmail.com" style="font-size: 2em;"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></a>
-                        <p style="font-size: 1.5rem;line-height: 25px;">Feel Free to Contact me xD</p>
+                        <p style="line-height: 25px;"><i class="fas fa-arrow-up"></i>Click above to send Email manually or Fill the form if you are lazy</p>
                     </span>
                 </div>
+                
                 <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;position:relative">
-                    <div class="alert">
-                        <span class="closebtn" onclick="this.parentElement.style.opacity='0';this.parentElement.style.animation='none'">&times;</span> 
-                        <strong><i class="fas fa-exclamation-triangle"></i>Please fill all the fields before proceeding</strong> 
-                    </div>
+                    <span class="gliched-move gliched-text">
+                        <p style=""font-size: 1.5rem;line-height: 25px;">Fill the form if you are lazy</p>
+                    </span>
+
                     <div style="display: flex;justify-content: space-between ; flex-direction: row; width: 100%;">
                         <input type="text" style="width: 40%;" required id="name" name="name" placeholder="Your Name">
                         <input type="email" style="width: 40%;" required  id="email" name="email" placeholder="Email Address">
@@ -67,7 +68,12 @@ const contact = () => {return html
                     <input type="text" id="subject" required style="width: 50%;" cols="50" name="subject" placeholder="Subject">
                     <br>
                     <textarea placeholder="Message" rows="5" cols="200" style="width: 100%;" id="message" name="message" required></textarea>
-                    <a type="submit" class="submit" @click=${sendEmail}>Submit</a>                   
+                    <a type="submit" class="submit" @click=${sendEmail}>Submit</a>
+                    
+                    <div class="alert">
+                    <span class="closebtn" onclick="this.parentElement.style.opacity='0';this.parentElement.style.animation='none'">&times;</span> 
+                    <strong><i class="fas fa-exclamation-triangle"></i>Please fill all the fields before proceeding</strong> 
+                    </div>                
                 </form>
             </div>
             
