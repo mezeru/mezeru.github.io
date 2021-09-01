@@ -4,7 +4,7 @@ const about = () =>
 {
     return html
     `
-    <section class="child" id="about" style="align-items:normal">
+    <section class="child abt" id="about" style="align-items:normal">
         <p class="gliched-text">
             Hi! I'm <span class="gliched-move gliched-text" style="text-align:left">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>

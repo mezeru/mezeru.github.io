@@ -697,6 +697,7 @@ $base: 0.6rem;
   }
 }
 
+
 @media only screen and (max-width: 1680px){
 
   .gliched-text{
@@ -747,13 +748,16 @@ $base: 0.6rem;
 
 @media only screen and (max-width: 1000px) {
   .gliched-text{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .gliched-move{
     font-size: 1em;
   }
   .navbar{
     font-size: 0.8em;
+  }
+  .child{
+    height: 90vh;
   }
 
 }
@@ -799,14 +803,34 @@ $base: 0.6rem;
   }
 
 }
+
+@media only screen and (max-width: 850px){
+
+  .gliched-text{
+    font-size: 1.5em;
+  }
+  .gliched-move{
+    font-size: 1em;
+  }
+
+}
+
 @media only screen and (max-width: 800px){
   .exp-element{
     grid-template-columns: 1fr;
     row-gap: 2em;
   }
+
 }
 
 @media only screen and (max-width: 680px) {
+
+  .gliched-text{
+    font-size: 1.3em;
+  }
+  .gliched-move{
+    font-size: 1em;
+  }
 
   body{
     .container{
@@ -866,18 +890,7 @@ $base: 0.6rem;
 @media only screen and (max-width: 400px){
 
   .gliched-text{
-    font-size: 0.9em;
-  }
-
-  .gliched-move{
     font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 400px){
-
-  .gliched-text{
-    font-size: 0.7em;
   }
 
   .gliched-move{

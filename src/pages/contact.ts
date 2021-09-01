@@ -30,7 +30,7 @@ const sendEmail = (e) => {
 
         try{
             
-            const res = send('Gmail-portfo',"Ruizo-portfo",params);
+            send('Gmail-portfo',"Ruizo-portfo",params);
             router.navigate("/thankz");
             
         }
