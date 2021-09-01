@@ -1,7 +1,6 @@
 import {html} from 'lit-html';
 import{ init, send } from "emailjs-com";
-
-
+import router from "../scripts/router"
 
 init("user_skqmAHaUypslAcztpKImL");
 
@@ -21,7 +20,8 @@ const sendEmail = async (e) => {
     for ( let i in params ){
         if (params[i].trim() == "") {
             aok = false;
-            document.querySelector(".alert").style.display = "block";
+            document.querySelector(".alert").style.animation = "alert-ye 1s ease-in";
+            document.querySelector(".alert").style.opacity = "0.8"
             break;
         }
     }
@@ -30,7 +30,7 @@ const sendEmail = async (e) => {
 
         try{
             const res = await send('Gmail-portfo',"Ruizo-portfo",params);
-            alert
+            router.navigate("/thankz");
             
         }
         catch{
@@ -55,7 +55,7 @@ const contact = () => {return html
                 </div>
                 <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;position:relative">
                     <div class="alert">
-                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                        <span class="closebtn" onclick="this.parentElement.style.opacity='0';this.parentElement.style.animation='none'">&times;</span> 
                         <strong><i class="fas fa-exclamation-triangle"></i>Please fill all the fields before proceeding</strong> 
                     </div>
                     <div style="display: flex;justify-content: space-between ; flex-direction: row; width: 100%;">

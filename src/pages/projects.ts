@@ -33,7 +33,7 @@ const projects = () => {return html
 
     <div>
         <p class="gliched-move gliched-text info">        
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nihil assumenda eum consequuntur sunt, quia dolorem, magni veritatis esse minima, ab illo perferendis. Unde quas perferendis dignissimos deleniti suscipit!
+            A Full Stack App for managing data of Covid-19 patients for a small clinic
         </p>
 
     </div>

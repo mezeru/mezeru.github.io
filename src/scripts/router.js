@@ -42,7 +42,7 @@ function scrollIn(num){
 }
 
 
-  window.addEventListener("load",()=>{
+
     const router = new Navigo("/");
     const main = document.getElementById("main");
     const routes = [
@@ -89,10 +89,10 @@ function scrollIn(num){
   });
 
     router.resolve();
-  });
 
 
-  
+
+export default router;
 
     
 

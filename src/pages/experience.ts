@@ -29,10 +29,10 @@ const experiment = () => {
         
     </div>
     <div>
-        <p class="gliched-text">Research Intern</p>
-        <p class="gliched-move gliched-text info">        
-        Conducted research on Interoperability in Healthcare and worked on Electronic Health Record Arcehtypes, Archetype Designer, Ehrbase and Med Blocks UI. 
-        <p class="gliched-move gliched-text info">
+        <p class="gliched-text gliched-move">Research Intern</p>
+        <p class="gliched-text info">        
+        Conducted research on Interoprability in Healthcare and worked on Electronic Health Record Arcehtypes, Archetype Designer, Ehrbase and Med Blocks UI. 
+        <p class="gliched-text info">
         Developed an interoperable system for Covid 19 following OpenEHR standard and prepared a data set for finding correlations between symptoms and the physique of a patient by implementing machine learning techniques.
         </p>
 
@@ -56,8 +56,9 @@ const experiment = () => {
         Which provides high quality commercial grade managed network services
         </p>
         <p class="gliched-move gliched-text info" >
-        Learned AngularJs and Developed web-components from UI designs in Adobe XD for SenRaco's Website using AngularJs.
+        Learned AngularJs and developed web-components from UI designs in Adobe XD for SenRaco's Website using AngularJs.
         Worked on SenRa's IoT Analytics Platform, Ginjer, to resolve production bugs and add minor features to the application.
+        Tested Senra's website for bugs
         </p>
     </div>
 
