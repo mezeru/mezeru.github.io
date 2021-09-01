@@ -4,7 +4,7 @@ import router from "../scripts/router"
 
 init("user_skqmAHaUypslAcztpKImL");
 
-const sendEmail = async (e) => {
+const sendEmail = (e) => {
 
     e.preventDefault();
     let aok = true;
@@ -29,7 +29,8 @@ const sendEmail = async (e) => {
     if(aok){
 
         try{
-            const res = await send('Gmail-portfo',"Ruizo-portfo",params);
+            
+            const res = send('Gmail-portfo',"Ruizo-portfo",params);
             router.navigate("/thankz");
             
         }
