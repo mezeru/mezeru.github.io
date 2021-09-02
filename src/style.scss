@@ -882,6 +882,10 @@ $base: 0.6rem;
     grid-template-columns: 1fr;
   }
 
+  #contact{
+    justify-content: flex-end;
+  }
+
 }
 
 @media only screen and (max-width: 400px){
@@ -893,7 +897,5 @@ $base: 0.6rem;
   .gliched-move{
     font-size: 1em;
   }
-
- 
 
 }
