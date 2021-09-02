@@ -51,10 +51,10 @@ ${pagination()}
         
     </div>
     <div>
-        <p class="gliched-text gliched-move">Research Intern</p>
-        <p class="gliched-text info">        
+        <p class="gliched-text">Research Intern</p>
+        <p class="gliched-text gliched-move info">        
         Conducted research on Interoprability in Healthcare and worked on Electronic Health Record Arcehtypes, Archetype Designer, Ehrbase and Med Blocks UI. 
-        <p class="gliched-text info">
+        <p class="gliched-text gliched-move info">
         Developed an interoperable system for Covid 19 following OpenEHR standard and prepared a data set for finding correlations between symptoms and the physique of a patient by implementing machine learning techniques.
         </p>
 
