@@ -1,13 +1,35 @@
 import {html} from "lit-html";
-
+import $ from "jquery"
+import pagination from "../scripts/pagination"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+$(document).on('scroll', pagination);
+
+$(document).on('click', 'a[href^="#"]', function(e) {
+    e.preventDefault();
+    $('html, #main').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
 
 const experiment = () => {
     
     return html `
 
-<section class="child" id="Exp One" >
+<ul id="pagination">
+  <li><a href="#Exp"></a></li>
+  <li><a href="#Two"></a></li>
+  <li><a href="#Three"></a></li>
+  <li><a href="#Four"></a></li>
+  <li><a href="#Five"></a></li>
+  <li><a href="#Six"></a></li>
+  <li><a href="#Seven"></a></li>
+</ul>
+
+${pagination()}
+
+<section class="child" id="Exp" >
         <span class="gliched-move gliched-text">
             <a style="font-size: 3em;"><span>Experience</span><span>Experience</span> <span>Experience</span></a>
         </span>

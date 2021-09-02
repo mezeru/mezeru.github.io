@@ -22,6 +22,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.1.0",
     "emailjs-com": "^3.2.0",
+    "jquery": "^3.6.0",
     "lit-html": "^1.4.1",
     "navigo": "^8.11.1"
   },

@@ -1,11 +1,40 @@
 import {html} from 'lit-html';
-
+import pagination from '../scripts/pagination';
+import $ from "jquery"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+pagination();
+
+$(document).on('scroll', pagination);
+
+$(document).on('click', 'a[href^="#"]', function(e) {
+    e.preventDefault();
+    $('html, #main').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
+
+
 const projects = () => {return html
 `
-<section class="child" id="proj">
+
+<ul id="pagination">
+  <li><a href="#Proj"></a></li>
+  <li><a href="#Two"></a></li>
+  <li><a href="#Three"></a></li>
+  <li><a href="#Four"></a></li>
+  <li><a href="#Five"></a></li>
+  <li><a href="#Six"></a></li>
+  <li><a href="#Seven"></a></li>
+  <li><a href="#Eight"></a></li>
+  <li><a href="#Nine"></a></li>
+  <li><a href="#Ten"></a></li>
+</ul>
+
+
+<section class="child" id="Proj">
             <span class="gliched-move gliched-text">
                 <a style="font-size: 2.5em;"><span>Projects</span><span>Projects</span> <span>Projects</span></a>
             </span>
@@ -41,7 +70,7 @@ const projects = () => {return html
 </section>
 
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Three">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
@@ -67,7 +96,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Four">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
@@ -94,7 +123,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Five">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
@@ -124,7 +153,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Six">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
@@ -150,7 +179,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Seven">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
@@ -179,7 +208,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Eight">
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
@@ -207,7 +236,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Nine">
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
         <div class="line-point"><div class="line-bottom"></div><div class="mid-point"></div></div>   
@@ -234,7 +263,7 @@ const projects = () => {return html
     
 </section>
 
-<section class="child proj-element " data-aos="fade"  id="Two">
+<section class="child proj-element " data-aos="fade"  id="Ten">
 
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
