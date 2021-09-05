@@ -24,13 +24,18 @@ overlaystatic.style.background = "url("+staticGif+")";
 
 
 function scrollIn(num){
-  try{
-    audio.muted = null;
-    audio.play();
+
+  var promise = audio.play();
+
+  if (promise !== undefined) {
+    promise.then(_ => {
+        // Autoplay started!
+      }).catch(error => {
+        null
+    });
   }
-  catch{
-    console.log("");
-  }
+
+
   main.style.opacity = "0";
   overlaystatic.style.animation = "change 500ms ease-in";
   main.style.animation = "scroll 1.5s ease-in";
