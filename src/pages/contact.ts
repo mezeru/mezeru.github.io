@@ -51,13 +51,13 @@ const contact = () => {return html
                 <div style="display: flex;align-items: center;justify-content: center;" >
                     <span class="gliched-move gliched-text">
                         <a href="mailto: jermpro0@gmail.com" style="font-size: 2em;"><span>Contact ME</span><span>Contact ME</span> <span>Contact ME</span></a>
-                        <p style="font-size: 1.5rem;;line-height: 25px;"><i class="fas fa-arrow-up"></i>Click above to send Email manually</p>
+                        <p class="p" line-height: 25px;"><i class="fas fa-arrow-up"></i>Click above to send Email manually</p>
                     </span>
                 </div>
                 
                 <form id="form" style="display: flex;align-items: flex-start;justify-content: center; flex-direction: column;position:relative">
                     <span class="gliched-move gliched-text">
-                        <p style="font-size: 2rem;line-height: 25px;">Fill the form if you are lazy</p>
+                        <p class="p" style="line-height: 25px;">Fill the form if you are lazy</p>
                     </span>
 
                     <div style="display: flex;justify-content: space-between ; flex-direction: row; width: 100%;">

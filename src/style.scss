@@ -273,6 +273,7 @@ body::-webkit-scrollbar-thumb {
   z-index: -1;
   cursor: pointer;
   opacity: 0.25;
+  pointer-events: none;
 }
 
 
@@ -297,6 +298,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 0;
   padding-top: 90px;
   background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.01) 100%);
+  pointer-events: none;
 }
 
 
@@ -315,6 +317,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   opacity: 1;
   filter: blur(5px);
+  pointer-events: none;
 }
 
 .icon-hero{
@@ -683,6 +686,11 @@ $base: 0.6rem;
 
 }
 
+#contact{
+  .p{
+    font-size: 1.5rem;
+  }
+}
 
 .exp-element{
   display: grid;
@@ -941,6 +949,9 @@ a {
 
   #contact{
     justify-content: flex-end;
+    .p{
+      font-size: 0.55rem;
+    }
   }
   
   .abt{
@@ -959,6 +970,16 @@ a {
   .gliched-move{
     font-size: 1em;
   }
+
+}
+
+@media only screen and (max-width: 320px){
+
+#contact{
+  textarea{
+    height: 20px;
+  }
+}
 
 }
 
