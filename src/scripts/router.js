@@ -27,9 +27,9 @@ function scrollIn(num){
 
   var promise = audio.play();
 
-  if (promise !== undefined) {
+  if (promise !== undefined) {   // Prevent the play() unhandled promise
     promise.then(_ => {
-        // Autoplay started!
+      null
       }).catch(error => {
         null
     });
