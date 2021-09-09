@@ -146,7 +146,7 @@ ${pagination()}
     <div>
         <p class="gliched-text">Unity Developer Intern</p>
         <p class="gliched-move gliched-text info">        
-            Worked on Unity Engine and also on Blender3D to create low poly 3D models of everyday items. I got practical exposure of C# programming in Unity Engine.
+            Worked on Unity Engine and also on Blender3D to make a virtual shopping experience and created low poly 3D models of everyday items.
         </p>
     </div>
 
