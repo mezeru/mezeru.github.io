@@ -19,6 +19,7 @@ const experiment = () => {
 
 <ul id="pagination">
   <li><a href="#Exp"></a></li>
+  <li><a href="#One"></a></li>
   <li><a href="#Two"></a></li>
   <li><a href="#Three"></a></li>
   <li><a href="#Four"></a></li>
@@ -41,9 +42,27 @@ ${pagination()}
         </div>
 </section>
 
+
+<section class="child exp-element " data-aos="fade"  id="Two">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Sep 2021 - Current</p>
+    <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
+    <div style="display:flex;">
+        <span class="gliched-move gliched-text">
+            <a href="https://medblocks.org/" style="font-size: 2em; text-transform:none"; >Medblocks</a>
+        </span>
+        
+    </div>
+    <div>
+        <p class="gliched-text">Front-End Developer Intern</p>
+        <p class="gliched-text gliched-move info">        
+        </p>
+    </div>
+</section>
+
+
 <section class="child exp-element " data-aos="fade"  id="Two">
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jun 2021 - Aug 2021</p>
-    <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text">
             <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >National Institute of Technology Delhi</a>
