@@ -54,7 +54,13 @@ ${pagination()}
     </div>
     <div>
         <p class="gliched-text">Front-End Developer Intern</p>
+        <p class="gliched-text gliched-move info">      
+        </p>
         <p class="gliched-text gliched-move info">        
+        Medblocks provides bundle of open-source microservices and stack for building modern healthcare applications.
+        </p>
+        <p class="gliched-text gliched-move info">        
+        Worked on openEHR and FHIR technologies to build interoperable systems for different clients. Created numerous openEHR templates catered to specific hospitals and helped build Healthcare applications following openEHR and HL7 standards. 
         </p>
     </div>
 </section>
