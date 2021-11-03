@@ -19,7 +19,7 @@ const about = () =>
             I am pursuing a Bachelor's degree (B.Tech) in Computer Science Engineering at  <span style="color: white;"> National Institute of technology, Delhi</span>
         </p>
 
-        <a href="https://drive.google.com/file/d/1yXoryYY-7CBGq8LHXSu5cSyumdFo-u4D/view?usp=sharing" style="align-self: flex-start; font-size: 1.8em;margin-top:2%;" class="gliched-move gliched-text" >
+        <a href="https://drive.google.com/drive/folders/1oMvbbnov6BWOqLznrQohUEX9-0sUNLtA?usp=sharing" style="align-self: flex-start; font-size: 1.8em;margin-top:2%;" class="gliched-move gliched-text" >
         <span>Resume</span><span>Resume</span> <span>Resume</span></span>
         </a>
         
