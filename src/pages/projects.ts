@@ -51,18 +51,18 @@ const projects = () => {return html
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
             <span class="gliched-move gliched-text">
-                <a>Covi</a>
+                <a style="font-size:1.5em">Interoperable System for COVID 19</a>
             </span>   
         <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang">ReactJs SCSS Typescript MongoDB (Vite)</p>
+        <p class="gliched-text lang">Svelte SCSS Typescript MongoDB EHRbase FHIR</p>
     </div>
 
     <div>
         <p class="gliched-move gliched-text info">        
-            A Full Stack App for managing data of Covid-19 patients for a small clinic
+            A Healthcare application to collect patient data following openEHR standards
         </p>
 
     </div>
