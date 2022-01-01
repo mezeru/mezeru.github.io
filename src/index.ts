@@ -1,11 +1,14 @@
 import iconUrl from "./assets/icon.png";
-let load = document.getElementById("load");
-let loaded = document.getElementById("after-load");
+
+const overlaystatic = document.getElementById("overlay-back");
+const nav = document.getElementsByClassName("nav-item");
+const main = document.getElementById("main");
+const loaded = document.getElementById("after-load");
 
 window.addEventListener('load', function() {
-    load.style.display = "none";
-    loaded.style.display = "block";
-    console.log("Loaded");
+    overlaystatic.style.animation = "change 500ms ease-in";
+    loaded.style.animation = "scroll 1.5s ease-in";
+    loaded.style.opacity = "1";
 });
 
 const cursor = document.getElementById("cursor");
@@ -26,8 +29,7 @@ const icon = document.querySelector(".icon-hero");
 
 icon.src = iconUrl;
 
-const nav = document.getElementsByClassName("nav-item");
-const main = document.getElementById("main");
+
 
 for (var i = 0 ; i < nav.length ; i++){
     nav[i].addEventListener("mouseenter",(e)=>{
