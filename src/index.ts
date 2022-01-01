@@ -1,4 +1,12 @@
-import iconUrl from "./assets/icon.png"
+import iconUrl from "./assets/icon.png";
+let load = document.getElementById("load");
+let loaded = document.getElementById("after-load");
+
+window.addEventListener('load', function() {
+    load.style.display = "none";
+    loaded.style.display = "block";
+    console.log("Loaded");
+});
 
 const cursor = document.getElementById("cursor");
 document.addEventListener('mousemove',(e)=>{

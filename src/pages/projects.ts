@@ -62,7 +62,10 @@ const projects = () => {return html
 
     <div>
         <p class="gliched-move gliched-text info">        
-            A Healthcare application to collect patient data following openEHR standards
+            A Healthcare application to collect patient data following openEHR standards.
+        </p>
+        <p class="gliched-move gliched-text info">        
+            I published a research paper documenting the creation and functioning of an interoperable system.
         </p>
 
     </div>
