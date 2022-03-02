@@ -51,18 +51,18 @@ const projects = () => {return html
 
     <div style="display:flex;justify-content:center;align-items:center; flex-direction:column">
             <span class="gliched-move gliched-text">
-                <a style="font-size:1.5em">Interoperable System for COVID 19</a>
+                <a href="https://github.com/mezeru/ISCov-19">ISCov-19</a>
             </span>   
         <div class="line-point"><div class="line-top"></div><div class="mid-point"></div></div>   
     </div>
 
     <div style="display:flex;flex-direction:column;align-items:center">
-        <p class="gliched-text lang">Svelte SCSS Typescript MongoDB EHRbase FHIR</p>
+        <p class="gliched-text lang">Svelte Typescript MongoDB OpenEHR FHIR SNOMEDCT</p>
     </div>
 
     <div>
         <p class="gliched-move gliched-text info">        
-            A Healthcare application to collect patient data following openEHR standards.
+            An interoperable healthcare application compliant with openEHR and FHIR standards.
         </p>
         <p class="gliched-move gliched-text info">        
             I published a research paper documenting the creation and functioning of an interoperable system.
@@ -291,7 +291,7 @@ const projects = () => {return html
 
     <div>
         <p class="gliched-move gliched-text info">
-        A Repo of Miniature Games made using Unity Engine
+        A Full Stack application for simulating communications between Post Offices of a State between Admins, Employees and Customers
 
         </p>
     </div>
