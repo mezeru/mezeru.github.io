@@ -16,7 +16,7 @@ const about = () =>
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">
-            I am pursuing a Bachelor's degree (B.Tech) in Computer Science Engineering at  <span style="color: white;"> National Institute of technology Delhi</span>
+            I completed my Bachelor's in Computer Science Engineering at  <span style="color: white;"> National Institute of technology Delhi</span>. Currently pursuing Master of Science degree in Computer Science from <span style="color: white;"> University of central Florida </span>
         </p>
 
         <a href="https://drive.google.com/drive/folders/1oMvbbnov6BWOqLznrQohUEX9-0sUNLtA?usp=sharing" style="align-self: flex-start; font-size: 1.8em;margin-top:2%;" class="gliched-move gliched-text" >
