@@ -12,7 +12,7 @@ const about = () =>
         </p>
 
         <p class="gliched-text">
-        I create WEBSITES for fun , love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like reseaching and learning about Health Informatics and Healthcare Applications 
+        I create WEBSITES for fun, love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like reseaching and learning about Health Informatics and Healthcare Applications 
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">
@@ -22,6 +22,10 @@ const about = () =>
         <a href="https://drive.google.com/drive/folders/1oMvbbnov6BWOqLznrQohUEX9-0sUNLtA?usp=sharing" style="align-self: flex-start; font-size: 1.8em;margin-top:2%;" class="gliched-move gliched-text" >
         <span>Resume</span><span>Resume</span> <span>Resume</span></span>
         </a>
+
+
+        </div>
+    </div>
         
     </section>
     
@@ -30,3 +34,9 @@ const about = () =>
 }
 
 export default about;
+
+// <div class="scroll">
+//             <div class="chevron"></div>
+//             <div class="chevron"></div>
+//             <div class="chevron"></div>
+//             </div>
