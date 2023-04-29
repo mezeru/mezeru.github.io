@@ -12,11 +12,9 @@ const about = () =>
         </p>
 
         <p class="gliched-text">
-<<<<<<< HEAD
+
         I create WEBSITES for fun, love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like reseaching and learning about Web Dev and I play a lot of Games xD. 
-=======
-        I create WEBSITES for fun , love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like reseaching and learning about Health Informatics and Healthcare Applications 
->>>>>>> parent of f89b17e (down arrow ad)
+
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">
