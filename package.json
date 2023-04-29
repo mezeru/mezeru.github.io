@@ -24,7 +24,9 @@
     "emailjs-com": "^3.2.0",
     "jquery": "^3.6.0",
     "lit-html": "^1.4.1",
-    "navigo": "^8.11.1"
+    "navigo": "^8.11.1",
+    "regenerator-runtime": "^0.13.11",
+    "three": "^0.152.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",

@@ -1,4 +1,5 @@
 import iconUrl from "./assets/icon.png";
+import 'regenerator-runtime'
 
 const overlaystatic = document.getElementById("overlay-back");
 const nav = document.getElementsByClassName("nav-item");

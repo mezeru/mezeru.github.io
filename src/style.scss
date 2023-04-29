@@ -25,6 +25,7 @@ body{
   
 }
 
+
 .child {
   height: 100vh;
   display: flex;
@@ -100,6 +101,7 @@ body{
   
 
 }
+
 
 
 .gliched-text{
@@ -276,6 +278,13 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
 }
 
+#bg3{
+  position: absolute;
+  top: 0;
+  z-index: -500;
+  height: 100%;
+  width: 100%;
+}
 
 #overlay-front::after{
   content: " ";
