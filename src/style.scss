@@ -281,6 +281,7 @@ body::-webkit-scrollbar-thumb {
 #bg3{
   position: absolute;
   top: 0;
+  // z-index: -1;
   z-index: 100;
   height: 100%;
   width: 100%;
