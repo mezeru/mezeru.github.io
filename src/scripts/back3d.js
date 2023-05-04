@@ -167,7 +167,7 @@ const makeBeach = () => {
     frontPlane.receiveShadow = true;
 
     beachPiece.add(frontPlane);
-    beachPiece.add(water);
+    
     return beachPiece;
 };
 
@@ -196,57 +196,57 @@ scene.add(moon);
 const makeCar = () => {
     const car = new THREE.Group();
 
-    // const wheelMat = new THREE.MeshStandardMaterial({color: 'gray'});
-    // const wheelGop = new THREE.CylinderGeometry(0.3,0.3,0.25);
-    // const wheelf = new THREE.Group();
-    // const wheelb = new THREE.Group();
+    const wheelMat = new THREE.MeshStandardMaterial({color: 'gray'});
+    const wheelGop = new THREE.CylinderGeometry(0.3,0.3,0.25);
+    const wheelf = new THREE.Group();
+    const wheelb = new THREE.Group();
 
-    // const whellypos = 0.29;
-    // const whellzpos = 0.75
+    const whellypos = 0.29;
+    const whellzpos = 0.75
 
-    // const wheelrf = new THREE.Mesh(wheelGop,wheelMat);
-    // wheelrf.rotation.x = Math.PI/2;
-    // wheelrf.position.z = -(whellzpos)
+    const wheelrf = new THREE.Mesh(wheelGop,wheelMat);
+    wheelrf.rotation.x = Math.PI/2;
+    wheelrf.position.z = -(whellzpos)
 
-    // const wheellf = new THREE.Mesh(wheelGop,wheelMat);
-    // wheellf.rotation.x = Math.PI/2;
-    // wheellf.position.z = whellzpos;
+    const wheellf = new THREE.Mesh(wheelGop,wheelMat);
+    wheellf.rotation.x = Math.PI/2;
+    wheellf.position.z = whellzpos;
 
-    // wheelf.add(wheellf);
-    // wheelf.add(wheelrf);
+    wheelf.add(wheellf);
+    wheelf.add(wheelrf);
 
-    // wheelf.position.x = -0.75;
-    // wheelf.position.y = whellypos;
+    wheelf.position.x = -0.75;
+    wheelf.position.y = whellypos;
 
-    // const wheelrb = new THREE.Mesh(wheelGop,wheelMat);
-    // wheelrb.rotation.x = Math.PI/2;
-    // wheelrb.position.z = -(whellzpos);
+    const wheelrb = new THREE.Mesh(wheelGop,wheelMat);
+    wheelrb.rotation.x = Math.PI/2;
+    wheelrb.position.z = -(whellzpos);
 
-    // const wheelld = new THREE.Mesh(wheelGop,wheelMat);
-    // wheelld.rotation.x = Math.PI/2;
-    // wheelld.position.z = whellzpos;
+    const wheelld = new THREE.Mesh(wheelGop,wheelMat);
+    wheelld.rotation.x = Math.PI/2;
+    wheelld.position.z = whellzpos;
 
-    // wheelb.add(wheelld);
-    // wheelb.add(wheelrb);
+    wheelb.add(wheelld);
+    wheelb.add(wheelrb);
 
-    // wheelb.position.x = 0.75;
-    // wheelb.position.y = whellypos;
+    wheelb.position.x = 0.75;
+    wheelb.position.y = whellypos;
 
-    // car.add(wheelf);
-    // car.add(wheelb);
+    car.add(wheelf);
+    car.add(wheelb);
 
-    // const baseGeometry = new THREE.BoxGeometry( 2.5, 0.6, 1.55 ); 
-    // const baseMaterial = new THREE.MeshStandardMaterial( {color: 'white'} ); 
-    // const carBase = new THREE.Mesh( baseGeometry, baseMaterial ); 
-    // carBase.position.y += 0.5;
-    // car.add(carBase);
+    const baseGeometry = new THREE.BoxGeometry( 2.5, 0.6, 1.55 ); 
+    const baseMaterial = new THREE.MeshStandardMaterial( {color: 'white'} ); 
+    const carBase = new THREE.Mesh( baseGeometry, baseMaterial ); 
+    carBase.position.y += 0.5;
+    car.add(carBase);
 
-    // const cabinGeometry = new THREE.BoxGeometry(1.75, 0.50, 1.4 ); 
-    // const cabinMaterial = new THREE.MeshStandardMaterial( {color: 'red'} ); 
-    // const cabin = new THREE.Mesh( cabinGeometry, cabinMaterial ); 
-    // cabin.position.y += 1;
-    // cabin.position.x += 0.25;
-    // car.add(cabin);
+    const cabinGeometry = new THREE.BoxGeometry(1.75, 0.50, 1.4 ); 
+    const cabinMaterial = new THREE.MeshStandardMaterial( {color: 'red'} ); 
+    const cabin = new THREE.Mesh( cabinGeometry, cabinMaterial ); 
+    cabin.position.y += 1;
+    cabin.position.x += 0.25;
+    car.add(cabin);
 
     const rectLight = new THREE.RectAreaLight( 0xffffff, 5,  2, 15 );
     rectLight.position.set( -2, 3, 0 );
