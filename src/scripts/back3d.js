@@ -113,7 +113,7 @@ scene.add(planeMesh);
 
 
 
-const skyboxGeo = new THREE.BoxGeometry(500,500,500);
+const skyboxGeo = new THREE.BoxGeometry(200,200,200);
 let matArr = [];
 let skyboxarr = [bk,fnt,btm,tp,rgt,lt];
 
@@ -157,11 +157,11 @@ scene.add(terrain2);
 
 const makeBeach = () => {
     const beachPiece = new THREE.Group();
-    const frontPlaneGeo = new THREE.PlaneGeometry(35,2,126,126);
-    const frontPlaneMat = new THREE.MeshStandardMaterial({displacementMap: new THREE.TextureLoader().load(sHeightMap), map: new THREE.TextureLoader().load(sandTex), displacementScale: 1, roughness: 0.75});
+    const frontPlaneGeo = new THREE.PlaneGeometry(35,5,126,126);
+    const frontPlaneMat = new THREE.MeshStandardMaterial({displacementMap: new THREE.TextureLoader().load(sHeightMap), map: new THREE.TextureLoader().load(sandTex), displacementScale: 0.5, roughness: 1.2});
     const frontPlane = new THREE.Mesh(frontPlaneGeo,frontPlaneMat);
     frontPlane.rotation.x = -Math.PI/2;
-    frontPlane.position.z = 3;
+    frontPlane.position.z = 4.85;
     frontPlane.position.y = -0.25;
     frontPlane.castShadow = true;
     frontPlane.receiveShadow = true;
@@ -185,8 +185,8 @@ const moonMat = new THREE.MeshBasicMaterial({color: 0xbfbfbf, map: new THREE.Tex
 var moon = new THREE.Mesh( moonGeo, moonMat );
 // moon.layers.set(1);
 moon.position.x = 0;
-moon.position.y = 18;
-moon.position.z = -200;
+moon.position.y = 5;
+moon.position.z = -50;
 scene.add(moon);
 
 
@@ -300,12 +300,12 @@ const tick = () => {
         terrain2.position.x = -45;
     }
 
-    if(beach1.position.x >= camera.position.x + 12){
-        beach1.position.x = -17;
+    if(beach1.position.x >= camera.position.x + 25){
+        beach1.position.x = -22;
     }
 
-    if(beach2.position.x >= camera.position.x + 12){
-        beach2.position.x = -17;
+    if(beach2.position.x >= camera.position.x + 25){
+        beach2.position.x = -22;
     }
 
     
