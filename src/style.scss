@@ -67,9 +67,9 @@ body{
     }
 
     a{
-      color: blueviolet;
+      color: rgb(184, 184, 184);
       filter: contrast(500%);
-      text-shadow: 0px 6px 10px rgba(137, 43, 226, 0.918);
+      text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.918);
       transition: all 100ms ease-in-out;
       margin: 0px;
     }
@@ -725,6 +725,13 @@ $base: 0.6rem;
   grid-template-columns: 2.5fr 1fr 10fr 10fr;
   column-gap: 3em;
   padding: 0% 5%;
+
+  .linkfade:hover{
+      text-shadow: 1px 1px 20px whitesmoke
+    }
+
+  
+
   .gliched-move{
     font-size: 2em;
   }

@@ -18,6 +18,7 @@ const experiment = () => {
     return html `
 
 <ul id="pagination">
+  <li><a href="#MiOne"></a></li>
   <li><a href="#Exp"></a></li>
   <li><a href="#One"></a></li>
   <li><a href="#Two"></a></li>
@@ -42,12 +43,34 @@ ${pagination()}
         </div>
 </section>
 
-
-<section class="child exp-element " data-aos="fade"  id="Two">
-    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Sep 2021 - Current</p>
+<section class="child exp-element " data-aos="fade"  id="MiOne">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2023 - Current</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
+            <a href="https://cdl.ucf.edu/" style="font-size: 2em; text-transform:none;"; >University of Central Florida</a>
+        </span>
+        
+    </div>
+    <div>
+        <p class="gliched-text">Personalised Adaptive Learning Assistant</p>
+        <p class="gliched-text gliched-move info">      
+        </p>
+        <p class="gliched-text gliched-move info">        
+        Worked as a PAL Assistant at UCF's Center of Distributed Learning
+        </p>
+        <p class="gliched-text gliched-move info">        
+        Collaborated with professors to develop tailored curriculums and courses using the RealiseIt system. I leverage cutting-edge technology and data analytics to create engaging, personalized learning experiences for students, helping them succeed at their own pace.
+        </p>
+    </div>
+</section>
+
+
+<section class="child exp-element " data-aos="fade"  id="One">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Sep 2021 - May 2022</p>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
+    <div style="display:flex;">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://medblocks.org/" style="font-size: 2em; text-transform:none"; >Medblocks</a>
         </span>
         
@@ -70,7 +93,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jun 2021 - Aug 2021</p>
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >National Institute of Technology Delhi</a>
         </span>
         
@@ -91,7 +114,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">May 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://senraco.com/" style="font-size: 2.5em; text-transform:none"; >SenRa Tech Pvt. Ltd.</a>
         </span>
         
@@ -115,7 +138,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Mar 2021 – Jun 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://www.unschool.in/" style="font-size: 2.5em; text-transform:none"; >Unschool</a>
         </span>
         
@@ -140,7 +163,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Apr 2021 – May 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://www.linkedin.com/company/validlog/?originalSubdomain=in" style="font-size: 2em; line-height:0em ;text-transform:none"; >
             Catosoft Technologies Private Limited</a>
         </span>
@@ -163,7 +186,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Feb 2021 – Apr 2021</p> 
     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://www.power2create.in/" style="font-size: 2em; text-transform:none"; >P2L Impact Learning Empowers Pvt. Ltd.</a>
         </span>
         
@@ -181,7 +204,7 @@ ${pagination()}
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">May 2020 – Oct 2020</p> 
     <div class="time-point"><div class="line-bottom"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
-        <span class="gliched-move gliched-text">
+        <span class="gliched-move gliched-text linkfade">
             <a href="https://nitdelhi.ac.in/" style="font-size: 2em; text-transform:none"; >
             National Institute of Technology Delhi </a>
         </span>

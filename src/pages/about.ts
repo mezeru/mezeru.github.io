@@ -26,8 +26,17 @@ const about = () =>
         </a>
         
     </section>
+
     
     `
+
+//     <section class="child abt" id="about" style="align-items:center">
+//     <div class="scroll">
+//             <div class="chevron"></div>
+//             <div class="chevron"></div>
+//             <div class="chevron"></div>
+//     </div>
+// </section>
     
 }
 
