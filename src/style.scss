@@ -213,6 +213,8 @@ body{
   flex: 7;
 }
 
+
+
 .c{
   position: absolute;
   width: 50%;
@@ -738,6 +740,12 @@ $base: 0.6rem;
   .info{
     font-size: 1.5em;
   }
+}
+
+
+.skill-sec{
+  display: flex;
+  flex-direction: column;
 }
 
 #pagination {
