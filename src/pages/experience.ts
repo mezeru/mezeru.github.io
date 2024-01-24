@@ -18,8 +18,10 @@ const experiment = () => {
     return html `
 
 <ul id="pagination">
+  <li><a href="#Exp"></a></li> 
+  <li><a href="#Mi3"></a></li>  
+  <li><a href="#Mi2"></a></li>  
   <li><a href="#MiOne"></a></li>
-  <li><a href="#Exp"></a></li>
   <li><a href="#One"></a></li>
   <li><a href="#Two"></a></li>
   <li><a href="#Three"></a></li>
@@ -43,12 +45,51 @@ ${pagination()}
         </div>
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="MiOne">
-    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2023 - Current</p>
+<section class="child exp-element " data-aos="fade"  id="Mi3">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2024 - Current</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text linkfade">
-            <a href="https://cdl.ucf.edu/" style="font-size: 2em; text-transform:none;"; >University of Central Florida</a>
+            <a href="https://fsi.ucf.edu/" style="font-size: 2em; text-transform:none;"; >Florida Space Institute</a>
+        </span>
+        
+    </div>
+    <div>
+        <p class="gliched-text">Developer</p>
+        <p class="gliched-text gliched-move info">
+    Designed and developed comprehensive full-stack web applications utilizing Vue.js for the frontend, Node.js for the backend, and MongoDB for efficient data management. These applications served as a catalyst for seamless collaboration among team members spanning various departments. The applications were deployed on AWS EC2 using Docker containers.   
+        </p>
+
+       
+    </div>
+</section>
+
+<section class="child exp-element " data-aos="fade"  id="Mi2">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Aug 2023 - Dec 2023</p>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
+    <div style="display:flex;">
+        <span class="gliched-move gliched-text linkfade">
+            <a href="https://sciences.ucf.edu/physics/" style="font-size: 2em; text-transform:none;"; >University of Central Florida</a>
+        </span>
+        
+    </div>
+    <div>
+        <p class="gliched-text">Graduate Teaching Assistant</p>
+        <p class="gliched-text gliched-move info">      
+        </p>
+        <p class="gliched-text gliched-move info">        
+        Worked as a Graduate Teaching Assistant for Physics Department for the course PHY2054
+        </p>
+       
+    </div>
+</section>
+
+<section class="child exp-element " data-aos="fade"  id="MiOne">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2023 - Jul 2023</p>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
+    <div style="display:flex;">
+        <span class="gliched-move gliched-text linkfade">
+            <a href="https://cdl.ucf.edu/" style="font-size: 2em; text-transform:none;"; >Center of Distributed Learning, UCF</a>
         </span>
         
     </div>
