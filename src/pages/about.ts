@@ -9,9 +9,9 @@ const about = () =>
             Hi! I'm <span class="gliched-move gliched-text" style="text-align:left">
                 <a href="https://github.com/mezeru"><span>YASH chaudhari</span><span>Yash chaudhari</span> <span>YASH chaudhari</span></span></a>
                 , a Full Stack Web developer and a software engineer.
-        </p>
+        
 
-        <p class="gliched-text">
+       
 
         I create WEBSITES for fun, love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like researching and learning about Web Dev and I play a lot of Games xD. 
 
