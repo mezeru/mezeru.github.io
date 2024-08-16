@@ -805,16 +805,16 @@ a {
 @media only screen and (max-width: 1880px){
 
   .gliched-text{
-    font-size: 1.75em;
+    font-size: 1em;
   }
 
   .gliched-move{
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   .proj-element{
     .gliched-move{
-      font-size: 1em;
+      font-size: 0.75em;
     }
     justify-items: center;
     align-content: center;
@@ -831,6 +831,8 @@ a {
     text-align: center;
   }
 }
+
+
 
 @media only screen and (max-width: 1300px) {
   .gliched-text{
