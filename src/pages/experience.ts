@@ -19,6 +19,7 @@ const experiment = () => {
 
 <ul id="pagination">
   <li><a href="#Exp"></a></li> 
+  <li><a href="#Mi4"></a></li> 
   <li><a href="#Mi3"></a></li>  
   <li><a href="#Mi2"></a></li>  
   <li><a href="#MiOne"></a></li>
@@ -45,9 +46,27 @@ ${pagination()}
         </div>
 </section>
 
-<section class="child exp-element " data-aos="fade"  id="Mi3">
-    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2024 - Current</p>
+<section class="child exp-element " data-aos="fade"  id="Mi4">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">May 2024 - Current</p>
     <div class="time-point"><div class="line-top"></div><div class="mid-point"></div></div>
+    <div style="display:flex;">
+        <span class="gliched-move gliched-text linkfade">
+            <a href="https://www.incedoinc.com/" style="font-size: 2em; text-transform:none;"; >Incedo Inc</a>
+        </span>
+        
+    </div>
+    <div>
+        <p class="gliched-text">Software Engineer</p>
+        <p class="gliched-text gliched-move info">
+        </p>
+
+       
+    </div>
+</section>
+
+<section class="child exp-element " data-aos="fade"  id="Mi3">
+    <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Jan 2024 - May 2024</p>
+    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text linkfade">
             <a href="https://fsi.ucf.edu/" style="font-size: 2em; text-transform:none;"; >Florida Space Institute</a>
@@ -55,7 +74,7 @@ ${pagination()}
         
     </div>
     <div>
-        <p class="gliched-text">Developer</p>
+        <p class="gliched-text">Full Stack Developer</p>
         <p class="gliched-text gliched-move info">
     Designed and developed comprehensive full-stack web applications utilizing Vue.js for the frontend, Node.js for the backend, and MongoDB for efficient data management. These applications served as a catalyst for seamless collaboration among team members spanning various departments. The applications were deployed on AWS EC2 using Docker containers.   
         </p>
@@ -66,7 +85,7 @@ ${pagination()}
 
 <section class="child exp-element " data-aos="fade"  id="Mi2">
     <p style="color:white;font-size:1.5em;font-family: 'Pixel', sans-serif;">Aug 2023 - Dec 2023</p>
-    <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
+     <div class="time-point"><div class="line"></div><div class="mid-point"></div></div>
     <div style="display:flex;">
         <span class="gliched-move gliched-text linkfade">
             <a href="https://sciences.ucf.edu/physics/" style="font-size: 2em; text-transform:none;"; >University of Central Florida</a>

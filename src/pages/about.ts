@@ -11,14 +11,17 @@ const about = () =>
                 , a Full Stack Web developer and a software engineer.
         
 
-       
+       a passionate Full Stack Web Developer and Software Engineer. I specialize in crafting dynamic websites and have a keen interest in exploring the latest frameworks and packages. My obsession with perfecting even the smallest details, like centering divs, drives my work.
 
-        I create WEBSITES for fun, love exploring frameworks & packages and my passion is centering DIv's (An ongoing css joke). I like researching and learning about Web Dev and I play a lot of Games xD. 
-
+        
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">
-            I completed my Bachelor's in Computer Science Engineering at  <span style="color: white;"> National Institute of technology Delhi</span>. Currently pursuing Master of Science degree in Computer Science from <span style="color: white;"> University of central Florida </span>
+           When I'm not coding, you'll find me vibing to music or immersed in a gaming session. Currently, I'm honing my skills at Incedo Inc., where I develop applications for Verzion.
+        </p>
+
+        <p class="gliched-text" style="margin-bottom:0">
+          I hold a Master’s degree in Computer Science from the University of Central Florida and a Bachelor’s degree in Computer Science Engineering from the National Institute of Technology Delhi.  
         </p>
 
         <a href="https://drive.google.com/drive/folders/1oMvbbnov6BWOqLznrQohUEX9-0sUNLtA?usp=sharing" style="align-self: flex-start; font-size: 1.8em;margin-top:2%;" class="gliched-move gliched-text" >
