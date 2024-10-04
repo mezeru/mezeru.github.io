@@ -58,6 +58,7 @@ ${pagination()}
     <div>
         <p class="gliched-text">Software Engineer</p>
         <p class="gliched-text gliched-move info">
+        Full Stack Developer on Unified Change Management Application, which is responsible of planning, scheduling, approving, conflict-management, impact identification and assessment, inventory and risk management of global Verizon Infrastructure, Devices and Applications.
         </p>
 
        
