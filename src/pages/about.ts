@@ -17,8 +17,7 @@ const about = () =>
         </p>
 
         <p class="gliched-text" style="margin-bottom:0">
-           When I'm not coding, you'll find me vibing to music or immersed in a gaming session. Currently, I'm honing my skills at Incedo Inc., where I develop applications for Verzion.
-        </p>
+          Outside of coding, I enjoy music and gaming. Currently, I work at Incedo Inc. on a Unified Change Management Application for Verizon.</p>
 
         <p class="gliched-text" style="margin-bottom:0">
           I hold a Master’s degree in Computer Science from the University of Central Florida and a Bachelor’s degree in Computer Science Engineering from the National Institute of Technology Delhi.  
