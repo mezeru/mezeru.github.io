@@ -25,6 +25,7 @@
     "jquery": "^3.6.0",
     "lit-html": "^1.4.1",
     "navigo": "^8.11.1",
+    "postprocessing": "^6.30.2",
     "regenerator-runtime": "^0.13.11",
     "three": "^0.152.2"
   },

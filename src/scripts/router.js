@@ -20,7 +20,7 @@ const overlaystatic = document.getElementById("overlay-back");
 const overlayBack = document.getElementById("overlay-background");
 const audio = document.getElementById("audio");
 
-overlaystatic.style.background = "url("+staticGif+")";
+// overlaystatic.style.background = "url("+staticGif+")";
 
 
 function scrollIn(num){
