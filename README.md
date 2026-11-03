@@ -1,6 +1,6 @@
 # Yash Chaudhari portfolio
 
-A custom, dark-first engineering portfolio built with Next.js App Router, React, strict TypeScript, Tailwind CSS, React Three Fiber, Drei, Three.js, Motion, and Lucide.
+A custom, dark-first engineering portfolio built with Next.js App Router, React, strict TypeScript, Tailwind CSS, Motion, and Lucide.
 
 ## Run locally
 
@@ -50,11 +50,9 @@ The latest résumé overrides outdated roles, education status, and LinkedIn lin
 
 ## Design and motion
 
-Charcoal surfaces, off-white type, a restrained powder-blue accent, and self-hosted variable Geist and Geist Mono establish a consistent editorial rhythm. Numbered section labels, open layouts, fine dividers, and original project diagrams keep the presentation focused on engineering work.
+Black surfaces, white highlights, grey secondary text, and self-hosted Geist typography define the minimal monochrome design. Thin dividers and neutral architecture diagrams keep attention on the content.
 
-The full-page background combines near and distant network layers with a grid and atmospheric lighting. It is mounted once in the root layout, stays behind every section, and responds to pointer movement and the full document scroll range. The two network layers share a deterministic 74-point topology and use four draw calls, with no external models, textures, lighting, or postprocessing. The scene is dynamically imported after the initial text renders. Demand rendering is capped at 30fps on desktop and 20fps on smaller screens, with DPR limited to 1.5, and stops when the document is hidden. Pointer and scroll motion update refs rather than React state. CSS layers animate only until their input changes have settled. A persistent pause control disables both the canvas and background parallax while preserving the static illustration.
-
-Reduced motion skips loading the 3D scene and disables reveal movement and smooth scrolling. A lightweight SVG and CSS atmosphere remain if WebGL2 is unavailable, a major GPU caveat is detected, or the scene cannot initialize. Text and native disclosures remain readable without JavaScript. Scroll reveals animate visible server-rendered content; they never hide it while waiting for hydration.
+The full-page background is a faint CSS grid with restrained pointer and scroll parallax. It uses no WebGL, canvas, 3D geometry, or continuous rendering. Motion settles when input stops. The pause control and reduced-motion preference disable background movement. All content and native disclosures remain available without JavaScript.
 
 The mobile navigation has focus management, Escape dismissal, a keyboard focus loop, and scroll locking. Native `details` elements provide keyboard-accessible experience and project notes. Links have visible focus indicators, and the page includes a skip link, semantic landmarks, a single H1, and labeled controls.
 

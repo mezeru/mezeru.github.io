@@ -1,5 +1,13 @@
 # Verification
 
+## November 2, 2026 — monochrome revision
+
+Replaced the blue palette with black surfaces, white highlights, and grey secondary tones throughout the page, project diagrams, icon, and social artwork. Removed the Three.js scene, SVG sphere fallbacks, WebGL probing, and unused 3D dependencies. The remaining background is a faint CSS parallax grid with pause and reduced-motion support.
+
+TypeScript, ESLint, production build, and static export verification passed. Browser inspection confirmed a black `rgb(8, 8, 8)` background, white `#f5f5f5` accent, zero canvas elements, and no horizontal overflow in the preview. The earlier 3D-specific checks below document the previous implementation and no longer describe the current background.
+
+## Earlier validation
+
 Verified October 31, 2026 with the bundled Node.js 24.22.1 runtime.
 
 ## Completed checks
