@@ -1,95 +1,23 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { Pause, Play } from "lucide-react";
-import { Component, useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const ParallaxScene = dynamic(() => import("./parallax-scene"), {
-  ssr: false,
-  loading: () => null,
-});
-
-export type BackgroundMotion = { x: number; y: number; progress: number };
-
-class SceneBoundary extends Component<
-  { children: ReactNode; onFailure: () => void },
-  { failed: boolean }
-> {
-  state = { failed: false };
-  static getDerivedStateFromError() {
-    return { failed: true };
-  }
-  componentDidCatch() {
-    this.props.onFailure();
-  }
-  render() {
-    return this.state.failed ? null : this.props.children;
-  }
-}
-
-function FallbackNetwork() {
-  return (
-    <svg viewBox="0 0 600 600" fill="none">
-      <g stroke="currentColor" strokeWidth="0.65">
-        <circle cx="300" cy="300" r="203" />
-        <ellipse cx="300" cy="300" rx="106" ry="203" transform="rotate(28 300 300)" />
-        <ellipse cx="300" cy="300" rx="203" ry="81" transform="rotate(-24 300 300)" />
-        <path d="M107 235 222 112 391 121 495 245 457 402 287 502 141 420 107 235 391 121 457 402 222 112 141 420 495 245 287 502 107 235M222 112 287 502M141 420 391 121" />
-      </g>
-      {[
-        [107, 235],
-        [222, 112],
-        [391, 121],
-        [495, 245],
-        [457, 402],
-        [287, 502],
-        [141, 420],
-      ].map(([cx, cy], i) => (
-        <circle key={i} cx={cx} cy={cy} r="3" fill="currentColor" />
-      ))}
-    </svg>
-  );
-}
+type BackgroundMotion = { x: number; y: number; progress: number };
 
 export function SiteBackground() {
   const root = useRef<HTMLDivElement>(null);
   const motion = useRef<BackgroundMotion>({ x: 0, y: 0, progress: 0 });
   const [allowed, setAllowed] = useState(false);
-  const [webgl, setWebgl] = useState(false);
-  const [ready, setReady] = useState(false);
   const [paused, setPaused] = useState(false);
   const moving = allowed && !paused;
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
-    let timer: ReturnType<typeof setTimeout>;
-    const detect = () => {
-      clearTimeout(timer);
-      setAllowed(!media.matches);
-      if (media.matches) {
-        setWebgl(false);
-        setReady(false);
-        return;
-      }
-      timer = setTimeout(() => {
-        try {
-          const canvas = document.createElement("canvas");
-          const gl = canvas.getContext("webgl2", { failIfMajorPerformanceCaveat: true });
-          if (gl) {
-            gl.getExtension("WEBGL_lose_context")?.loseContext();
-            setWebgl(true);
-          }
-        } catch {
-          setWebgl(false);
-        }
-      }, 750);
-    };
-    detect();
-    media.addEventListener("change", detect);
-    return () => {
-      clearTimeout(timer);
-      media.removeEventListener("change", detect);
-    };
+    const update = () => setAllowed(!media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
   }, []);
 
   useEffect(() => {
@@ -163,46 +91,17 @@ export function SiteBackground() {
     };
   }, [moving]);
 
-  const fail = () => {
-    setReady(false);
-    setWebgl(false);
-  };
-
   return (
     <>
-      <div
-        ref={root}
-        className={`site-background ${ready && webgl && moving ? "scene-ready" : ""}`}
-        aria-hidden="true"
-      >
-        <div className="parallax-atmosphere" />
+      <div ref={root} className="site-background" aria-hidden="true">
         <div className="parallax-grid" />
-        <div className="parallax-fallback">
-          <div className="fallback-near">
-            <FallbackNetwork />
-          </div>
-          <div className="fallback-far">
-            <FallbackNetwork />
-          </div>
-        </div>
-        {webgl && moving && (
-          <div className="parallax-canvas">
-            <SceneBoundary onFailure={fail}>
-              <ParallaxScene motion={motion} onReady={() => setReady(true)} onFailure={fail} />
-            </SceneBoundary>
-          </div>
-        )}
-        <div className="background-veil" />
       </div>
       {allowed && (
         <button
           className="motion-toggle"
           aria-label={paused ? "Resume background animation" : "Pause background animation"}
           aria-pressed={paused}
-          onClick={() => {
-            setReady(false);
-            setPaused(!paused);
-          }}
+          onClick={() => setPaused(!paused)}
         >
           {paused ? <Play size={12} /> : <Pause size={12} />}
           <span>{paused ? "Resume motion" : "Pause motion"}</span>

@@ -2,3 +2,12 @@ node_modules
 .cache
 dist
 github
+.next/
+out/
+.parcel-cache/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+.vercel/
+tmp/
