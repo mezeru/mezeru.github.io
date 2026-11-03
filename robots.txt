@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://ruizo.is-a.dev
+Sitemap: https://ruizo.is-a.dev/sitemap.xml
