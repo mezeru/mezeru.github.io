@@ -1,0 +1,38 @@
+{
+  "name": "mezeru.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mezeru/mezeru.github.io.git"
+  },
+  "author": "Yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mezeru/mezeru.github.io/issues"
+  },
+  "homepage": "https://github.com/mezeru/mezeru.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.1.0",
+    "emailjs-com": "^3.2.0",
+    "jquery": "^3.6.0",
+    "lit-html": "^1.4.1",
+    "navigo": "^8.11.1",
+    "postprocessing": "^6.30.2",
+    "regenerator-runtime": "^0.13.11",
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.4",
+    "typescript": "^4.4.4"
+  }
+}

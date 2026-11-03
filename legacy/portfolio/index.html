@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="abstract"               content="The not so great lyf of Yesh">
+    <meta name="description"            content="My Portfolio Website">
+    <meta name="keywords"               content="Yash, Portfolio, Github">
+    <meta name="author"                 content="Yash Chaudhari">
+    <meta property="og:type"            content="website">
+    <meta property="og:url"             content="https://ruizo.is-a.dev">
+    <meta property="og:country-name"    content="IN">
+    <meta property="og:locale"          content="en_IN">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="./style.scss">
+    
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+          if (l.search[1] === '/' ) {
+              var decoded = l.search.slice(1).split('&').map(function(s) { 
+              return s.replace(/~and~/g, '&')
+              }).join('?');
+              window.history.replaceState(null, null,
+                  l.pathname.slice(0, -1) + decoded + l.hash
+              );
+          } 
+      }(window.location))
+  
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+    <title>Ruizo's Lair</title>
+</head>
+<body id="body" >
+
+    
+
+
+        <div id="overlay-background"></div>
+        <div id="overlay-back"></div>
+        <div id="overlay-front"></div>
+        <div id="overlay-bottom"></div>
+        <audio id="audio" src="./assets//static.mp3" autoplay ></audio>
+        <div id="cursor"></div>
+
+        <div id="after-load" style="opacity: 0;">
+
+        
+
+        
+
+    <nav class="navbar">
+        <ul>
+            <a href="experience" data-navigo class="nav-item" aria-label="Experience" ><i class="fas fa-briefcase"></i><p>Experience</p></a>
+            <a href="projects" data-navigo class="nav-item" aria-label="Projects" ><i class="fas fa-project-diagram"></i><p>Projects</p></a>
+            <a href="/" data-navigo ><img  class="icon-hero" alt="Yash"></a>
+            <a href="social" data-navigo  class="nav-item"><i class="fas fa-user-plus" aria-label="user" ></i><p>Social</p></a>
+            <a href="contact" data-navigo  class="nav-item"><i class="fas fa-id-card-alt" aria-label="card" ></i><p>Contact Me</p></a>
+        </ul>
+    </nav>
+    <canvas id="bg3"></canvas>
+    
+    <div id="main" >
+    </div>
+    <a style="display: hidden;" href="./404.html" aria-label="404"></a>
+    </div>
+</body>
+<footer>
+    <script src="./index.ts" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+    <script type="module" src="./scripts/back3d.js"></script>
+    <script type="module" src="./scripts/router.js"></script>
+</footer>
+</html>
