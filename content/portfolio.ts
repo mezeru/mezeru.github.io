@@ -76,7 +76,7 @@ export type Project = {
   highlights: readonly string[];
   stack: readonly string[];
   github: string;
-  diagram: "review" | "agent" | "health" | "billing" | "rewards";
+  diagram: "review" | "agent" | "health" | "billing";
 };
 
 export const projects: readonly Project[] = [
@@ -151,24 +151,6 @@ export const projects: readonly Project[] = [
     stack: ["Node.js", "Express", "Gemini", "TensorFlow.js", "Twilio"],
     github: "https://github.com/mezeru/CapStone-GenAI",
     diagram: "billing",
-  },
-  {
-    id: "rewards",
-    number: "05",
-    name: "Employee Rewards API",
-    category: "Backend / API Design",
-    status: "Training project",
-    description: "Role-based workflows for recognition and rewards.",
-    contribution:
-      "Built Java and Spring Boot APIs for HR, managers, and employees: employee assignment, reward points, item management, and redemption. Uses Spring Security and JPA persistence with MySQL.",
-    highlights: [
-      "Distinct HR, manager, and employee APIs",
-      "Reward and redemption domain models",
-      "JPA repositories and service boundaries",
-    ],
-    stack: ["Java", "Spring Boot", "Spring Security", "JPA", "MySQL"],
-    github: "https://github.com/mezeru/Capstone-Training-Project",
-    diagram: "rewards",
   },
 ];
 

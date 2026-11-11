@@ -1040,7 +1040,7 @@ summary::-webkit-details-marker {
 }
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-top: 39px;
 }
@@ -1087,10 +1087,6 @@ summary::-webkit-details-marker {
   background-color: #1c1c1c;
   background-image: none;
 }
-.architecture-rewards {
-  background-color: #1e1e1e;
-  background-image: none;
-}
 .mini-diagram-label {
   display: flex;
   align-items: center;
@@ -1105,9 +1101,6 @@ summary::-webkit-details-marker {
 }
 .architecture-billing .mini-diagram-label {
   color: #a7a7a7;
-}
-.architecture-rewards .mini-diagram-label {
-  color: #a5a5a5;
 }
 .diagram-caption {
   position: absolute;
@@ -1244,55 +1237,6 @@ summary::-webkit-details-marker {
   height: 8px;
   border: 1px solid #999999;
   transform: rotate(45deg);
-}
-.rewards-flow {
-  padding-top: 64px;
-  width: calc(100% - 50px);
-  margin: auto;
-}
-.role-nodes {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-.role-nodes span {
-  width: 33.33%;
-  text-align: center;
-  border: 1px solid #b0b0b026;
-  border-radius: 3px;
-  font-family: var(--mono);
-  font-size: 7px;
-  color: #bcbcbc;
-  padding: 8px 3px;
-  background: #b0b0b006;
-}
-.rewards-line {
-  width: 68%;
-  margin: 0 auto 12px;
-  height: 15px;
-  border-inline: 1px solid #b0b0b030;
-  border-bottom: 1px solid #b0b0b030;
-  position: relative;
-}
-.rewards-line::after {
-  content: "";
-  width: 1px;
-  height: 27px;
-  position: absolute;
-  left: 50%;
-  background: #b0b0b030;
-}
-.rewards-flow .diagram-node {
-  color: #c4c4c4;
-  border-color: #b0b0b030;
-  background: #b0b0b006;
-  padding-block: 9px;
-}
-.rewards-flow .diagram-node svg {
-  color: #a0a0a0;
-}
-.rewards-flow .diagram-node svg:last-child {
-  margin-left: auto;
 }
 .expertise-grid {
   display: grid;
@@ -1658,9 +1602,6 @@ summary::-webkit-details-marker {
     font-size: 6px;
     left: 12px;
   }
-  .rewards-flow {
-    width: calc(100% - 28px);
-  }
   .expertise-grid {
     gap: 24px;
   }
@@ -1866,6 +1807,23 @@ summary::-webkit-details-marker {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 37px 25px;
+  }
+  .project-grid > div:last-child {
+    grid-column: 1 / 3;
+  }
+  .project-grid > div:last-child .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .project-grid > div:last-child .project-body {
+    padding-top: 0;
+  }
+  .project-grid > div:last-child .project .tags {
+    min-height: auto;
+  }
+  .project-grid > div:last-child .project-description {
+    min-height: auto;
   }
   .billing-output > span {
     min-width: 118px;
@@ -2354,18 +2312,6 @@ summary::-webkit-details-marker {
   .billing-flow .diagram-node {
     padding: 15px 13px;
     font-size: 9px;
-  }
-  .rewards-flow {
-    width: calc(100% - 65px);
-    padding-top: 72px;
-  }
-  .role-nodes span {
-    padding-block: 9px;
-    font-size: 8px;
-  }
-  .rewards-flow .diagram-node {
-    font-size: 10px;
-    padding: 11px 14px;
   }
   .expertise-grid {
     gap: 29px 23px;

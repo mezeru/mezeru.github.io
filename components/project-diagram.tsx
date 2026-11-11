@@ -6,7 +6,6 @@ import {
   FileCheck2,
   Fingerprint,
   Network,
-  ScanLine,
   ShieldCheck,
   Sparkles,
   UserRound,
@@ -196,28 +195,5 @@ export function ProjectDiagram({ type }: { type: Project["diagram"] }) {
       </div>
     );
 
-  return (
-    <div
-      className="architecture architecture-rewards"
-      aria-label="Architecture sketch: HR, manager, and employee roles access a Spring Boot API"
-    >
-      <div className="mini-diagram-label">
-        <ScanLine size={15} /> ROLE-BASED WORKFLOWS
-      </div>
-      <div className="rewards-flow">
-        <div className="role-nodes">
-          <span>HR</span>
-          <span>Manager</span>
-          <span>Employee</span>
-        </div>
-        <div className="rewards-line" />
-        <div className="diagram-node">
-          <ShieldCheck size={20} />
-          <span>Spring Boot API</span>
-          <Database size={17} />
-        </div>
-      </div>
-      <span className="diagram-caption">ARCHITECTURE SKETCH / RECOGNITION TO REWARDS</span>
-    </div>
-  );
+  return null;
 }
