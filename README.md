@@ -44,7 +44,7 @@ legacy/portfolio/     Preserved original Parcel portfolio and assets
 
 Edit `content/portfolio.ts` to maintain all professional information. The page is statically rendered; content changes require a new build.
 
-The primary download is the exact latest user-supplied `Yash_Chaudhari_Resume.docx` (August 13, 2026), copied to `public/Yash-Chaudhari-Resume.docx`. The existing August 10 PDF is also preserved at `/Yash-Chaudhari-Resume.pdf`. To switch to an updated PDF, replace that file and change `person.resume`. Do not overwrite either original source in Downloads.
+The primary download is the exact user-supplied `Yash_Chaudhari_Updated_Resume_Software_Engineer.docx` (November 11, 2026), copied to `public/Yash-Chaudhari-Resume.docx`. The older PDF was removed from the public assets so the site does not offer an outdated résumé. The source file in Downloads was not changed.
 
 The latest résumé overrides outdated roles, education status, and LinkedIn links in the original website. See [the content audit](docs/content-audit.md). ThreatLens is explicitly a prototype operating on synthetic events. Architecture visuals are diagrams of documented implementations, not simulated product screenshots.
 

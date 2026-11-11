@@ -1,12 +1,12 @@
 # Content audit
 
-Reviewed October 31, 2026; updated November 11, 2026. Professional facts come from the latest résumé supplied by Yash and his subsequent promotion update. This audit records provenance and unresolved limits; it is not part of the visitor-facing page.
+Reviewed October 31, 2026; updated November 11, 2026. Professional facts come from the latest résumé supplied by Yash and his promotion update. This audit records provenance and unresolved limits; it is not part of the visitor-facing page.
 
 ## Sources and priority
 
-1. Yash's November 11, 2026 update confirms his promotion to Senior Software Engineer on October 1, 2026, and requests Python, LangGraph, and RAG in the skills section. This supersedes the older résumé for current title.
-2. `Yash_Chaudhari_Resume.docx` from the user-provided `Downloads/Resumes/Gen` directory, modified August 13, 2026. This is the primary résumé download; its title predates the promotion.
-3. `Yash_Chaudhari_Resume.pdf` from the same directory, modified August 10, 2026. Cross-checked against the DOCX. It has a different summary but consistent employment, dates, achievements, education, and contact details. Preserved as an optional PDF file in `public/`.
+1. `Yash_Chaudhari_Updated_Resume_Software_Engineer.docx` supplied November 11, 2026. This is the current résumé download and source for the separate Senior Software Engineer and Software Engineer entries, their dates, achievements, and additional skills.
+2. Yash's November 11, 2026 update confirms the promotion took effect October 1, 2026, which is more precise than the résumé's month-only date.
+3. The earlier August 2026 DOCX and PDF remain in the user's Downloads folder but are no longer served by the portfolio.
 4. [Provided LinkedIn profile](https://www.linkedin.com/in/yashnchaudhari/). The web fetch failed; no claims were reconstructed from inaccessible profile content. This URL is independently confirmed in the latest résumé.
 5. [Public GitHub account](https://github.com/mezeru). Read the public repository inventory, project file trees, READMEs, implementation guide, and dependency manifests through GitHub's public API and raw source URLs. The AI PR Review repository was cloned and reviewed on November 11, 2026.
 6. [Existing portfolio](https://ruizo.is-a.dev). The web tool could not retrieve it; a direct HTTP check returned 200. Reviewed its complete local source for branding, prior content, and contact links. The original implementation is preserved in `legacy/portfolio/`.
@@ -15,11 +15,12 @@ Reviewed October 31, 2026; updated November 11, 2026. Professional facts come fr
 
 | Employer                | Role                         | Dates                    | Relationship                                                          |
 | ----------------------- | ---------------------------- | ------------------------ | --------------------------------------------------------------------- |
-| Incedo Inc.             | Senior Software Engineer     | June 2024–Present        | Promoted October 1, 2026; supporting Verizon; Verizon is not represented as the direct employer |
+| Incedo Inc.             | Senior Software Engineer     | October 2026–Present     | Promoted October 1, 2026; supporting Verizon; Verizon is not represented as the direct employer |
+| Incedo Inc.             | Software Engineer            | June 2024–September 2026 | Supporting Verizon through Incedo                                  |
 | Florida Space Institute | Software Engineer, part-time | December 2022–March 2024 | Research collaboration and data platforms                             |
 | Medblocks               | Full Stack Developer         | September 2021–June 2022 | Healthcare applications and interoperability                          |
 
-The Incedo 80% latency improvement is explicitly reported in both résumé versions. Seniority and promotion date come directly from the user's November 2026 update. No additional performance metrics, customer counts, hiring availability, or security clearances were added. The national healthcare user metric was omitted for concision rather than expanded into a project-level claim.
+The new résumé reports two distinct 80% improvements: less manual entry effort in the senior role and lower page-load and interaction latency in the earlier role. It also reports more than 1,000 operational emails processed each week, a RAG-based redaction layer, outage reporting, PostgreSQL tuning, and S3 exports. The portfolio keeps these claims with the roles where the résumé places them. No additional performance metrics, customer counts, hiring availability, or security clearances were added.
 
 Education: M.S. Computer Science, University of Central Florida, May 2024; B.Tech. Computer Science and Engineering, National Institute of Technology Delhi, May 2022. Email and Dallas location come from the latest résumé. Phone number is intentionally not published in the webpage; the original downloadable résumé includes its existing contact details.
 
@@ -39,8 +40,7 @@ All visual previews are original architecture sketches derived from the document
 - The old portfolio described Medblocks as an ongoing internship. The latest résumé supersedes it: Full Stack Developer, September 2021–June 2022.
 - The old portfolio said the UCF master's degree was in progress. The latest résumé confirms completion in May 2024.
 - The old portfolio and GitHub bio link to a previous LinkedIn slug. The latest résumé and user brief agree on `/in/yashnchaudhari/`, which is used throughout.
-- The latest résumé is DOCX. Download actions deliberately serve that exact file instead of silently presenting the older PDF as the newest résumé.
-- The downloadable résumé predates the October 2026 promotion. The portfolio reflects the user's newer title; the résumé file remains the user-supplied document.
+- The latest résumé is DOCX. Download actions serve the exact November 2026 file; the older PDF is no longer published.
 
 ## Content strategy
 

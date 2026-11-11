@@ -7,7 +7,6 @@ export const person = {
   linkedin: "https://www.linkedin.com/in/yashnchaudhari/",
   url: "https://ruizo.is-a.dev",
   resume: "/Yash-Chaudhari-Resume.docx",
-  resumePdf: "/Yash-Chaudhari-Resume.pdf",
 } as const;
 
 export const navigation = [
@@ -23,17 +22,34 @@ export const experience = [
     company: "Incedo Inc.",
     context: "Supporting Verizon",
     role: "Senior Software Engineer",
-    dates: "Jun 2024 — Present",
+    dates: "Oct 2026 — Present",
     location: "Dallas, TX",
     overview:
-      "Promoted from Software Engineer on October 1, 2026. Building enterprise applications and event-driven services across the stack.",
+      "Promoted on October 1, 2026. Building AI-assisted maintenance intake for enterprise operations.",
     achievements: [
-      "Designed an LLM-powered pipeline that turns operational emails into structured maintenance requests through internal REST APIs, eliminating manual data entry for the maintenance team.",
-      "Built Java and Spring Boot services, REST and GraphQL APIs, and React and Next.js applications supporting workflows across multiple Verizon business units.",
-      "Developed asynchronous workflows with Kafka and Redis, and maintained Docker and Jenkins delivery pipelines.",
-      "Reduced page load and interaction latency by 80% through frontend rendering and API response optimizations.",
+      "Engineered an LLM-powered agent pipeline that processes more than 1,000 emails per week, extracts maintenance schedules, and submits service requests through REST APIs, reducing manual entry effort by 80%.",
+      "Designed a RAG-based redaction layer that strips sensitive information before confidential communications reach external LLMs.",
+      "Automated maintenance request intake end to end, from unstructured email parsing through API submission.",
     ],
-    stack: ["Java", "Spring Boot", "React", "Next.js", "GraphQL", "Kafka", "Redis", "Gemini"],
+    stack: ["LLM workflows", "RAG", "REST APIs", "Data redaction"],
+  },
+  {
+    company: "Incedo Inc.",
+    context: "Supporting Verizon",
+    role: "Software Engineer",
+    dates: "Jun 2024 — Sep 2026",
+    location: "Dallas, TX",
+    overview:
+      "Built enterprise services and operational interfaces across Java, React, APIs, and event-driven systems.",
+    achievements: [
+      "Built Java and Spring Boot services, REST and GraphQL APIs, and React and Next.js applications supporting Verizon workflows.",
+      "Developed an automated regulatory outage reporting platform that evaluates network disruption events for FCC and state submissions.",
+      "Developed asynchronous workflows with Kafka and Redis, including scheduled jobs and service-to-service integrations.",
+      "Reduced page-load and interaction latency by 80% through UI rendering and API response optimizations; built React and Chart.js dashboards.",
+      "Improved PostgreSQL operations through query tuning and partitioning, and developed asynchronous S3 exports for large datasets.",
+      "Maintained Dockerized services and Jenkins delivery pipelines.",
+    ],
+    stack: ["Java", "Spring Boot", "React", "Next.js", "GraphQL", "Kafka", "Redis", "PostgreSQL", "AWS S3"],
   },
   {
     company: "Florida Space Institute",
@@ -160,19 +176,19 @@ export const expertise = [
     title: "Product & interfaces",
     description:
       "Responsive applications, operational dashboards, and performance that users can feel.",
-    skills: ["React", "Next.js", "TypeScript", "Svelte", "Redux", "Chart.js"],
+    skills: ["React", "Next.js", "TypeScript", "Svelte", "Vue", "Redux", "Chart.js"],
   },
   {
     number: "02",
     title: "Services & systems",
     description: "Clear API contracts and reliable communication across service boundaries.",
-    skills: ["Java", "Spring Boot", "Node.js", "Python", "REST", "GraphQL", "Kafka", "Redis"],
+    skills: ["Java", "Spring Boot", "Node.js", "Python", "REST", "GraphQL", "Kafka", "Redis", "WebSockets"],
   },
   {
     number: "03",
     title: "Data & infrastructure",
     description: "Practical data modeling, repeatable deployments, and automated delivery.",
-    skills: ["PostgreSQL", "MongoDB", "Oracle", "AWS", "Docker", "Jenkins", "CI/CD"],
+    skills: ["PostgreSQL", "MongoDB", "Oracle", "AWS", "S3", "Docker", "Jenkins", "CI/CD"],
   },
   {
     number: "04",
@@ -183,9 +199,11 @@ export const expertise = [
       "Gemini API · Production",
       "Workflow automation",
       "LangGraph · Personal projects",
-      "RAG",
+      "RAG · Production",
       "OpenAI SDK · Personal projects",
       "Zod · Personal projects",
+      "Pydantic · Personal projects",
+      "Langfuse · Personal projects",
     ],
   },
 ] as const;

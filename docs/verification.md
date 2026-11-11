@@ -1,5 +1,9 @@
 # Verification
 
+## November 11, 2026 — résumé update
+
+The downloadable DOCX was replaced with the November 11 user-supplied résumé. Its SHA-256 hash matches the source file. The outdated public PDF was removed. The experience timeline now separates the senior and prior Incedo roles, with achievements and dates sourced from the new résumé. The October 1 promotion date comes from the user's direct update.
+
 ## November 2, 2026 — monochrome revision
 
 Replaced the blue palette with black surfaces, white highlights, and grey secondary tones throughout the page, project diagrams, icon, and social artwork. Removed the Three.js scene, SVG sphere fallbacks, WebGL probing, and unused 3D dependencies. The remaining background is a faint CSS parallax grid with pause and reduced-motion support.

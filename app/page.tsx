@@ -215,7 +215,8 @@ export default function Home() {
                 <p>
                   At Incedo, supporting Verizon, I build enterprise applications and backend
                   services that keep operational workflows moving. My work spans React and Next.js
-                  interfaces, Java services, event-driven systems, and LLM-powered automation.
+                  interfaces, Java services, event-driven systems, and AI-assisted maintenance
+                  automation.
                 </p>
                 <p>
                   Previously, I built research software at Florida Space Institute and interoperable
@@ -290,7 +291,7 @@ export default function Home() {
             </Reveal>
             <div className="experience-list">
               {experience.map((job, index) => (
-                <Reveal key={job.company}>
+                <Reveal key={`${job.company}-${job.role}`}>
                   <details
                     className={`experience-item ${index === 0 ? "current-role" : ""}`}
                     open={index === 0}
