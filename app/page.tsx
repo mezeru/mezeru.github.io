@@ -110,7 +110,7 @@ export default function Home() {
     url: person.url,
     jobTitle: person.role,
     description:
-      "Full-stack software engineer working on enterprise applications, backend systems, and applied AI.",
+      "Senior software engineer working on enterprise applications, backend systems, and applied AI.",
     sameAs: [person.github, person.linkedin],
     alumniOf: [
       { "@type": "CollegeOrUniversity", name: "University of Central Florida" },
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="container hero-inner">
             <div className="hero-copy">
               <div className="eyebrow hero-eyebrow">
-                <span className="small-line" /> SOFTWARE ENGINEER · FULL-STACK & SYSTEMS
+                <span className="small-line" /> SENIOR SOFTWARE ENGINEER · FULL-STACK & SYSTEMS
               </div>
               <p className="hero-name">Hi, I’m Yash.</p>
               <h1 id="hero-heading">
@@ -209,7 +209,7 @@ export default function Home() {
               </h2>
               <div className="about-copy">
                 <p className="lead">
-                  I’m a full-stack software engineer who likes understanding how the pieces fit
+                  I’m a senior software engineer who likes understanding how the pieces fit
                   together.
                 </p>
                 <p>

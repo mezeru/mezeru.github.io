@@ -1,6 +1,6 @@
 export const person = {
   name: "Yash Chaudhari",
-  role: "Full-Stack Software Engineer",
+  role: "Senior Software Engineer",
   location: "Dallas, Texas",
   email: "Jermpro0@gmail.com",
   github: "https://github.com/mezeru",
@@ -22,11 +22,11 @@ export const experience = [
   {
     company: "Incedo Inc.",
     context: "Supporting Verizon",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     dates: "Jun 2024 — Present",
     location: "Dallas, TX",
     overview:
-      "Full-stack engineering for enterprise operations, from user-facing applications to event-driven services.",
+      "Promoted from Software Engineer on October 1, 2026. Building enterprise applications and event-driven services across the stack.",
     achievements: [
       "Designed an LLM-powered pipeline that turns operational emails into structured maintenance requests through internal REST APIs, eliminating manual data entry for the maintenance team.",
       "Built Java and Spring Boot services, REST and GraphQL APIs, and React and Next.js applications supporting workflows across multiple Verizon business units.",
@@ -76,13 +76,31 @@ export type Project = {
   highlights: readonly string[];
   stack: readonly string[];
   github: string;
-  diagram: "agent" | "health" | "billing" | "rewards";
+  diagram: "review" | "agent" | "health" | "billing" | "rewards";
 };
 
 export const projects: readonly Project[] = [
   {
-    id: "threatlens",
+    id: "ai-pr-review",
     number: "01",
+    name: "AI PR Review",
+    category: "Applied AI / Developer Tools",
+    status: "Personal project · Python CLI",
+    description: "A pull request reviewer that grounds findings in changed code and source context.",
+    contribution:
+      "Built a LangGraph review workflow that reads GitHub pull request diffs, requests bounded file context, and produces structured findings with Pydantic. It checks finding locations against changed lines before returning JSON; that check does not independently prove a defect.",
+    highlights: [
+      "GitHub PR metadata and diff analysis",
+      "Source context limited to 150 lines and five tool calls",
+      "Structured findings with changed-line location checks",
+    ],
+    stack: ["Python", "LangGraph", "Hugging Face", "Pydantic", "GitHub API"],
+    github: "https://github.com/mezeru/AI-PR-Review",
+    diagram: "review",
+  },
+  {
+    id: "threatlens",
+    number: "02",
     name: "ThreatLens",
     category: "Applied AI / Security",
     status: "Hackathon prototype · Synthetic data",
@@ -100,7 +118,7 @@ export const projects: readonly Project[] = [
   },
   {
     id: "iscov",
-    number: "02",
+    number: "03",
     name: "ISCov-19",
     category: "Full-stack / Healthcare",
     status: "Research project",
@@ -118,7 +136,7 @@ export const projects: readonly Project[] = [
   },
   {
     id: "telecom",
-    number: "03",
+    number: "04",
     name: "Telecom Intelligence",
     category: "Backend / Applied AI",
     status: "Personal capstone",
@@ -136,7 +154,7 @@ export const projects: readonly Project[] = [
   },
   {
     id: "rewards",
-    number: "04",
+    number: "05",
     name: "Employee Rewards API",
     category: "Backend / API Design",
     status: "Training project",
@@ -166,7 +184,7 @@ export const expertise = [
     number: "02",
     title: "Services & systems",
     description: "Clear API contracts and reliable communication across service boundaries.",
-    skills: ["Java", "Spring Boot", "Node.js", "REST", "GraphQL", "Kafka", "Redis"],
+    skills: ["Java", "Spring Boot", "Node.js", "Python", "REST", "GraphQL", "Kafka", "Redis"],
   },
   {
     number: "03",
@@ -182,6 +200,8 @@ export const expertise = [
     skills: [
       "Gemini API · Production",
       "Workflow automation",
+      "LangGraph · Personal projects",
+      "RAG",
       "OpenAI SDK · Personal projects",
       "Zod · Personal projects",
     ],

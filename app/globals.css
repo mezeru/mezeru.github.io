@@ -1040,7 +1040,7 @@ summary::-webkit-details-marker {
 }
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
   margin-top: 39px;
 }
@@ -1866,23 +1866,6 @@ summary::-webkit-details-marker {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 37px 25px;
-  }
-  .project-grid > div:last-child {
-    grid-column: 1 / 3;
-  }
-  .project-grid > div:last-child .project {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-  }
-  .project-grid > div:last-child .project-body {
-    padding-top: 0;
-  }
-  .project-grid > div:last-child .project .tags {
-    min-height: auto;
-  }
-  .project-grid > div:last-child .project-description {
-    min-height: auto;
   }
   .billing-output > span {
     min-width: 118px;
